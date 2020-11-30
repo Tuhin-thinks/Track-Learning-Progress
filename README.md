@@ -36,5 +36,5 @@ _You basically don't have to open the excel sheet each time and edit and save th
 
 # PREVIEW
 <p align="center">
-<img src="images/dsa_sheet.png" width="350">
+<img src="images/dsa_sheet.png" height="350">
 </p> 
