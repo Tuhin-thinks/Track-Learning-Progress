@@ -1,0 +1,3144 @@
+{
+   "Topic:": [
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Array",
+      "Matrix",
+      "Matrix",
+      "Matrix",
+      "Matrix",
+      "Matrix",
+      "Matrix",
+      "Matrix",
+      "Matrix",
+      "Matrix",
+      "Matrix",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "String",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "Searching & Sorting",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "LinkedList",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Binary Search Trees",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "Greedy",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "BackTracking",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Stacks & Queues",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Heap",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Graph",
+      "Trie",
+      "Trie",
+      "Trie",
+      "Trie",
+      "Trie",
+      "Trie",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Bit Manipulation",
+      "Bit Manipulation",
+      "Bit Manipulation",
+      "Bit Manipulation",
+      "Bit Manipulation",
+      "Bit Manipulation",
+      "Bit Manipulation",
+      "Bit Manipulation",
+      "Bit Manipulation"
+   ],
+   "Problem:": [
+      {
+         "ID": "15102",
+         "Name": "Reverse the array",
+         "Link": "https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/"
+      },
+      {
+         "ID": "15103",
+         "Name": "Find the maximum and minimum element in an array",
+         "Link": "https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/"
+      },
+      {
+         "ID": "15104",
+         "Name": "Find the \"Kth\" max and min element of an array ",
+         "Link": "https://practice.geeksforgeeks.org/problems/kth-smallest-element/0"
+      },
+      {
+         "ID": "15105",
+         "Name": "Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo",
+         "Link": "https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0"
+      },
+      {
+         "ID": "15106",
+         "Name": "Move all the negative elements to one side of the array ",
+         "Link": "https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/"
+      },
+      {
+         "ID": "15107",
+         "Name": "Find the Union and Intersection of the two sorted arrays.",
+         "Link": "https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0"
+      },
+      {
+         "ID": "15108",
+         "Name": "Write a program to cyclically rotate an array by one.",
+         "Link": "https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one/0"
+      },
+      {
+         "ID": "15109",
+         "Name": "find Largest sum contiguous Subarray [V. IMP]",
+         "Link": "https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0"
+      },
+      {
+         "ID": "15110",
+         "Name": "Minimise the maximum difference between heights [V.IMP]",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1"
+      },
+      {
+         "ID": "15111",
+         "Name": "Minimum no. of Jumps to reach end of an array",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0"
+      },
+      {
+         "ID": "15112",
+         "Name": "find duplicate in an array of N+1 Integers",
+         "Link": "https://leetcode.com/problems/find-the-duplicate-number/"
+      },
+      {
+         "ID": "15113",
+         "Name": "Merge 2 sorted arrays without using Extra space.",
+         "Link": "https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1"
+      },
+      {
+         "ID": "15114",
+         "Name": "Kadane's Algo [V.V.V.V.V IMP]",
+         "Link": "https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0"
+      },
+      {
+         "ID": "15115",
+         "Name": "Merge Intervals",
+         "Link": "https://leetcode.com/problems/merge-intervals/"
+      },
+      {
+         "ID": "15116",
+         "Name": "Next Permutation",
+         "Link": "https://leetcode.com/problems/next-permutation/"
+      },
+      {
+         "ID": "15117",
+         "Name": "Count Inversion",
+         "Link": "https://practice.geeksforgeeks.org/problems/inversion-of-array/0"
+      },
+      {
+         "ID": "15118",
+         "Name": "Best time to buy and Sell stock",
+         "Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+      },
+      {
+         "ID": "15119",
+         "Name": "find all pairs on integer array whose sum is equal to given number",
+         "Link": "https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1"
+      },
+      {
+         "ID": "15120",
+         "Name": "find common elements In 3 sorted arrays",
+         "Link": "https://practice.geeksforgeeks.org/problems/common-elements1132/1"
+      },
+      {
+         "ID": "15121",
+         "Name": "Rearrange the array in alternating positive and negative items with O(1) extra space",
+         "Link": "https://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/"
+      },
+      {
+         "ID": "15122",
+         "Name": "Find if there is any subarray with sum equal to 0",
+         "Link": "https://practice.geeksforgeeks.org/problems/subarray-with-0-sum/0"
+      },
+      {
+         "ID": "15123",
+         "Name": "Find factorial of a large number",
+         "Link": "https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers/0"
+      },
+      {
+         "ID": "15124",
+         "Name": "find maximum product subarray ",
+         "Link": "https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1"
+      },
+      {
+         "ID": "15125",
+         "Name": "Find longest coinsecutive subsequence",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence/0"
+      },
+      {
+         "ID": "15126",
+         "Name": "Given an array of size n and a number k, fin all elements that appear more than \" n/k \" times.",
+         "Link": "https://www.geeksforgeeks.org/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/"
+      },
+      {
+         "ID": "15127",
+         "Name": "Maximum profit by buying and selling a share atmost twice",
+         "Link": "https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/"
+      },
+      {
+         "ID": "15128",
+         "Name": "Find whether an array is a subset of another array",
+         "Link": "https://practice.geeksforgeeks.org/problems/array-subset-of-another-array/0"
+      },
+      {
+         "ID": "15129",
+         "Name": "Find the triplet that sum to a given value",
+         "Link": "https://practice.geeksforgeeks.org/problems/triplet-sum-in-array/0"
+      },
+      {
+         "ID": "15130",
+         "Name": "Trapping Rain water problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/trapping-rain-water/0"
+      },
+      {
+         "ID": "15131",
+         "Name": "Chocolate Distribution problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0"
+      },
+      {
+         "ID": "15132",
+         "Name": "Smallest Subarray with sum greater than a given value",
+         "Link": "https://practice.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x/0"
+      },
+      {
+         "ID": "15133",
+         "Name": "Three way partitioning of an array around a given value",
+         "Link": "https://practice.geeksforgeeks.org/problems/three-way-partitioning/1"
+      },
+      {
+         "ID": "15134",
+         "Name": "Minimum swaps required bring elements less equal K together",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together/0"
+      },
+      {
+         "ID": "15135",
+         "Name": "Minimum no. of operations required to make an array palindrome",
+         "Link": "https://practice.geeksforgeeks.org/problems/palindromic-array/0"
+      },
+      {
+         "ID": "15136",
+         "Name": "Median of 2 sorted arrays of equal size",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-the-median0527/1"
+      },
+      {
+         "ID": "15137",
+         "Name": "Median of 2 sorted arrays of different size",
+         "Link": "https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/"
+      },
+      {
+         "ID": "15138",
+         "Name": "Spiral traversal on a Matrix",
+         "Link": "https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0"
+      },
+      {
+         "ID": "15139",
+         "Name": "Search an element in a matriix",
+         "Link": "https://leetcode.com/problems/search-a-2d-matrix/"
+      },
+      {
+         "ID": "15140",
+         "Name": "Find median in a row wise sorted matrix",
+         "Link": "https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1"
+      },
+      {
+         "ID": "15141",
+         "Name": "Find row with maximum no. of 1's",
+         "Link": "https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1"
+      },
+      {
+         "ID": "15142",
+         "Name": "Print elements in sorted order using row-column wise sorted matrix",
+         "Link": "https://practice.geeksforgeeks.org/problems/sorted-matrix/0"
+      },
+      {
+         "ID": "15143",
+         "Name": "Maximum size rectangle",
+         "Link": "https://practice.geeksforgeeks.org/problems/max-rectangle/1"
+      },
+      {
+         "ID": "15144",
+         "Name": "Find a specific pair in matrix",
+         "Link": "https://www.geeksforgeeks.org/find-a-specific-pair-in-matrix/"
+      },
+      {
+         "ID": "15145",
+         "Name": "Rotate matrix by 90 degrees",
+         "Link": "https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-direction-without-using-any-extra-space/"
+      },
+      {
+         "ID": "15146",
+         "Name": "Kth smallest element in a row-cpumn wise sorted matrix",
+         "Link": "https://practice.geeksforgeeks.org/problems/kth-element-in-matrix/1"
+      },
+      {
+         "ID": "15147",
+         "Name": "Common elements in all rows of a given matrix",
+         "Link": "https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/"
+      },
+      {
+         "ID": "15148",
+         "Name": "Reverse a String",
+         "Link": "https://leetcode.com/problems/reverse-string/"
+      },
+      {
+         "ID": "15149",
+         "Name": "Check whether a String is Palindrome or not",
+         "Link": "https://practice.geeksforgeeks.org/problems/palindrome-string0817/1"
+      },
+      {
+         "ID": "15150",
+         "Name": "Find Duplicate characters in a string",
+         "Link": "https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/"
+      },
+      {
+         "ID": "15151",
+         "Name": "Why strings are immutable in Java?",
+         "Link": ""
+      },
+      {
+         "ID": "15152",
+         "Name": "Write a Code to check whether one string is a rotation of another",
+         "Link": "https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other/"
+      },
+      {
+         "ID": "15153",
+         "Name": "Write a Program to check whether a string is a valid shuffle of two strings or not",
+         "Link": "https://www.programiz.com/java-programming/examples/check-valid-shuffle-of-strings"
+      },
+      {
+         "ID": "15154",
+         "Name": "Count and Say problem",
+         "Link": "https://leetcode.com/problems/count-and-say/"
+      },
+      {
+         "ID": "15155",
+         "Name": "Write a program to find the longest Palindrome in a string.[ Longest palindromic Substring]",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0"
+      },
+      {
+         "ID": "15156",
+         "Name": "Find Longest Recurring Subsequence in String",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0"
+      },
+      {
+         "ID": "15157",
+         "Name": "Print all Subsequences of a string.",
+         "Link": "https://www.geeksforgeeks.org/print-subsequences-string/"
+      },
+      {
+         "ID": "15158",
+         "Name": "Print all the permutations of the given string",
+         "Link": "https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0"
+      },
+      {
+         "ID": "15159",
+         "Name": "Split the Binary string into two substring with equal 0\u2019s and 1\u2019s",
+         "Link": "https://www.geeksforgeeks.org/split-the-binary-string-into-substrings-with-equal-number-of-0s-and-1s/"
+      },
+      {
+         "ID": "15160",
+         "Name": "Word Wrap Problem [VERY IMP].",
+         "Link": "https://practice.geeksforgeeks.org/problems/word-wrap/0"
+      },
+      {
+         "ID": "15161",
+         "Name": "EDIT Distance [Very Imp]",
+         "Link": "https://practice.geeksforgeeks.org/problems/edit-distance3702/1"
+      },
+      {
+         "ID": "15162",
+         "Name": "Find next greater number with same set of digits. [Very Very IMP]",
+         "Link": "https://practice.geeksforgeeks.org/problems/next-permutation/0"
+      },
+      {
+         "ID": "15163",
+         "Name": "Balanced Parenthesis problem.[Imp]",
+         "Link": "https://practice.geeksforgeeks.org/problems/parenthesis-checker/0"
+      },
+      {
+         "ID": "15164",
+         "Name": "Word break Problem[ Very Imp]",
+         "Link": "https://practice.geeksforgeeks.org/problems/word-break/0"
+      },
+      {
+         "ID": "15165",
+         "Name": "Rabin Karp Algo",
+         "Link": "https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/"
+      },
+      {
+         "ID": "15166",
+         "Name": "KMP Algo",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1"
+      },
+      {
+         "ID": "15167",
+         "Name": "Convert a Sentence into its equivalent mobile numeric keypad sequence.",
+         "Link": "https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/"
+      },
+      {
+         "ID": "15168",
+         "Name": "Minimum number of bracket reversals needed to make an expression balanced.",
+         "Link": "https://practice.geeksforgeeks.org/problems/count-the-reversals/0"
+      },
+      {
+         "ID": "15169",
+         "Name": "Count All Palindromic Subsequence in a given String.",
+         "Link": "https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1"
+      },
+      {
+         "ID": "15170",
+         "Name": "Count of number of given string in 2D character array",
+         "Link": "https://www.geeksforgeeks.org/find-count-number-given-string-present-2d-character-array/"
+      },
+      {
+         "ID": "15171",
+         "Name": "Search a Word in a 2D Grid of characters.",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-the-string-in-grid/0"
+      },
+      {
+         "ID": "15172",
+         "Name": "Boyer Moore Algorithm for Pattern Searching.",
+         "Link": "https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/"
+      },
+      {
+         "ID": "15173",
+         "Name": "Converting Roman Numerals to Decimal",
+         "Link": "https://practice.geeksforgeeks.org/problems/roman-number-to-integer/0"
+      },
+      {
+         "ID": "15174",
+         "Name": "Longest Common Prefix",
+         "Link": "https://leetcode.com/problems/longest-common-prefix/"
+      },
+      {
+         "ID": "15175",
+         "Name": "Number of flips to make binary string alternate",
+         "Link": "https://practice.geeksforgeeks.org/problems/min-number-of-flips/0"
+      },
+      {
+         "ID": "15176",
+         "Name": "Find the first repeated word in string.",
+         "Link": "https://practice.geeksforgeeks.org/problems/second-most-repeated-string-in-a-sequence/0"
+      },
+      {
+         "ID": "15177",
+         "Name": "Minimum number of swaps for bracket balancing.",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing/0"
+      },
+      {
+         "ID": "15178",
+         "Name": "Find the longest common subsequence between two strings.",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0"
+      },
+      {
+         "ID": "15179",
+         "Name": "Program to generate all possible valid IP addresses from given  string.",
+         "Link": "https://www.geeksforgeeks.org/program-generate-possible-valid-ip-addresses-given-string/"
+      },
+      {
+         "ID": "15180",
+         "Name": "Write a program tofind the smallest window that contains all characters of string itself.",
+         "Link": "https://practice.geeksforgeeks.org/problems/smallest-distant-window/0"
+      },
+      {
+         "ID": "15181",
+         "Name": "Rearrange characters in a string such that no two adjacent are same",
+         "Link": "https://practice.geeksforgeeks.org/problems/rearrange-characters/0"
+      },
+      {
+         "ID": "15182",
+         "Name": "Minimum characters to be added at front to make string palindrome",
+         "Link": "https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/"
+      },
+      {
+         "ID": "15183",
+         "Name": "Given a sequence of words, print all anagrams together",
+         "Link": "https://practice.geeksforgeeks.org/problems/k-anagrams-1/0"
+      },
+      {
+         "ID": "15184",
+         "Name": "Find the smallest window in a string containing all characters of another string",
+         "Link": "https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string/0"
+      },
+      {
+         "ID": "15185",
+         "Name": "Recursively remove all adjacent duplicates",
+         "Link": "https://practice.geeksforgeeks.org/problems/consecutive-elements/0"
+      },
+      {
+         "ID": "15186",
+         "Name": "String matching where one string contains wildcard characters",
+         "Link": "https://practice.geeksforgeeks.org/problems/wildcard-string-matching/0"
+      },
+      {
+         "ID": "15187",
+         "Name": "Function to find Number of customers who could not get a computer",
+         "Link": "https://www.geeksforgeeks.org/function-to-find-number-of-customers-who-could-not-get-a-computer/"
+      },
+      {
+         "ID": "15188",
+         "Name": "Transform One String to Another using Minimum Number of Given Operation",
+         "Link": "https://www.geeksforgeeks.org/transform-one-string-to-another-using-minimum-number-of-given-operation/"
+      },
+      {
+         "ID": "15189",
+         "Name": "Check if two given strings are isomorphic to each other",
+         "Link": "https://practice.geeksforgeeks.org/problems/isomorphic-strings/0"
+      },
+      {
+         "ID": "15190",
+         "Name": "Recursively print all sentences that can be formed from list of word lists",
+         "Link": "https://www.geeksforgeeks.org/recursively-print-all-sentences-that-can-be-formed-from-list-of-word-lists/"
+      },
+      {
+         "ID": "15191",
+         "Name": "Find first and last positions of an element in a sorted array",
+         "Link": "https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x/0"
+      },
+      {
+         "ID": "15192",
+         "Name": "Find a Fixed Point (Value equal to index) in a given array",
+         "Link": "https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1"
+      },
+      {
+         "ID": "15193",
+         "Name": "Search in a rotated sorted array",
+         "Link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+      },
+      {
+         "ID": "15194",
+         "Name": "square root of an integer",
+         "Link": "https://practice.geeksforgeeks.org/problems/count-squares3649/1"
+      },
+      {
+         "ID": "15195",
+         "Name": "Maximum and minimum of an array using minimum number of comparisons",
+         "Link": "https://practice.geeksforgeeks.org/problems/middle-of-three2926/1"
+      },
+      {
+         "ID": "15196",
+         "Name": "Optimum location of point to minimize total distance",
+         "Link": "https://www.geeksforgeeks.org/optimum-location-point-minimize-total-distance/"
+      },
+      {
+         "ID": "15197",
+         "Name": "Find the repeating and the missing",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1"
+      },
+      {
+         "ID": "15198",
+         "Name": "find majority element",
+         "Link": "https://practice.geeksforgeeks.org/problems/majority-element/0"
+      },
+      {
+         "ID": "15199",
+         "Name": "Searching in an array where adjacent differ by at most k",
+         "Link": "https://www.geeksforgeeks.org/searching-array-adjacent-differ-k/"
+      },
+      {
+         "ID": "15200",
+         "Name": "find a pair with a given difference",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-pair-given-difference/0"
+      },
+      {
+         "ID": "15201",
+         "Name": "find four elements that sum to a given value",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers/0"
+      },
+      {
+         "ID": "15202",
+         "Name": "maximum sum such that no 2 elements are adjacent",
+         "Link": "https://practice.geeksforgeeks.org/problems/stickler-theif/0"
+      },
+      {
+         "ID": "15203",
+         "Name": "Count triplet with sum smaller than a given value",
+         "Link": "https://practice.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1"
+      },
+      {
+         "ID": "15204",
+         "Name": "merge 2 sorted arrays",
+         "Link": "https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1"
+      },
+      {
+         "ID": "15205",
+         "Name": "print all subarrays with 0 sum",
+         "Link": "https://practice.geeksforgeeks.org/problems/zero-sum-subarrays/0"
+      },
+      {
+         "ID": "15206",
+         "Name": "Product array Puzzle",
+         "Link": "https://practice.geeksforgeeks.org/problems/product-array-puzzle/0"
+      },
+      {
+         "ID": "15207",
+         "Name": "Sort array according to count of set bits",
+         "Link": "https://practice.geeksforgeeks.org/problems/sort-by-set-bit-count/0"
+      },
+      {
+         "ID": "15208",
+         "Name": "minimum no. of swaps required to sort the array",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-swaps/1"
+      },
+      {
+         "ID": "15209",
+         "Name": "Bishu and Soldiers",
+         "Link": "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/bishu-and-soldiers/"
+      },
+      {
+         "ID": "15210",
+         "Name": "Rasta and Kheshtak",
+         "Link": "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/rasta-and-kheshtak/"
+      },
+      {
+         "ID": "15211",
+         "Name": "Kth smallest number again",
+         "Link": "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/kth-smallest-number-again-2/"
+      },
+      {
+         "ID": "15212",
+         "Name": "Find pivot element in a sorted array",
+         "Link": "http://theoryofprogramming.com/2017/12/16/find-pivot-element-sorted-rotated-array/"
+      },
+      {
+         "ID": "15213",
+         "Name": "K-th Element of Two Sorted Arrays",
+         "Link": "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0"
+      },
+      {
+         "ID": "15214",
+         "Name": "Aggressive cows",
+         "Link": "https://www.spoj.com/problems/AGGRCOW/"
+      },
+      {
+         "ID": "15215",
+         "Name": "Book Allocation Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0"
+      },
+      {
+         "ID": "15216",
+         "Name": "EKOSPOJ:",
+         "Link": "https://www.spoj.com/problems/EKO/"
+      },
+      {
+         "ID": "15217",
+         "Name": "Job Scheduling Algo",
+         "Link": "https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/"
+      },
+      {
+         "ID": "15218",
+         "Name": "Missing Number in AP",
+         "Link": "https://practice.geeksforgeeks.org/problems/arithmetic-number/0"
+      },
+      {
+         "ID": "15219",
+         "Name": "Smallest number with atleastn trailing zeroes infactorial",
+         "Link": "https://practice.geeksforgeeks.org/problems/smallest-factorial-number5929/1"
+      },
+      {
+         "ID": "15220",
+         "Name": "Painters Partition Problem:",
+         "Link": "https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0"
+      },
+      {
+         "ID": "15221",
+         "Name": "ROTI-Prata SPOJ",
+         "Link": "https://www.spoj.com/problems/PRATA/"
+      },
+      {
+         "ID": "15222",
+         "Name": "DoubleHelix SPOJ",
+         "Link": "https://www.spoj.com/problems/ANARC05B/"
+      },
+      {
+         "ID": "15223",
+         "Name": "Subset Sums",
+         "Link": "https://www.spoj.com/problems/SUBSUMS/"
+      },
+      {
+         "ID": "15224",
+         "Name": "Findthe inversion count",
+         "Link": "https://practice.geeksforgeeks.org/problems/inversion-of-array/0"
+      },
+      {
+         "ID": "15225",
+         "Name": "Implement Merge-sort in-place",
+         "Link": "https://www.geeksforgeeks.org/in-place-merge-sort/"
+      },
+      {
+         "ID": "15226",
+         "Name": "Partitioning and Sorting Arrays with Many Repeated Entries",
+         "Link": "https://www.baeldung.com/java-sorting-arrays-with-repeated-entries"
+      },
+      {
+         "ID": "15227",
+         "Name": "Write a Program to reverse the Linked List. (Both Iterative and recursive)",
+         "Link": "https://www.geeksforgeeks.org/reverse-a-linked-list/"
+      },
+      {
+         "ID": "15228",
+         "Name": "Reverse a Linked List in group of Given Size. [Very Imp]",
+         "Link": "https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1"
+      },
+      {
+         "ID": "15229",
+         "Name": "Write a program to Detect loop in a linked list.",
+         "Link": "https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1"
+      },
+      {
+         "ID": "15230",
+         "Name": "Write a program to Delete loop in a linked list.",
+         "Link": "https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1"
+      },
+      {
+         "ID": "15231",
+         "Name": "Find the starting point of the loop.\u00a0",
+         "Link": "https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/"
+      },
+      {
+         "ID": "15232",
+         "Name": "Remove Duplicates in a sorted Linked List.",
+         "Link": "https://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1"
+      },
+      {
+         "ID": "15233",
+         "Name": "Remove Duplicates in a Un-sorted Linked List.",
+         "Link": "https://practice.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1"
+      },
+      {
+         "ID": "15234",
+         "Name": "Write a Program to Move the last element to Front in a Linked List.",
+         "Link": "https://www.geeksforgeeks.org/move-last-element-to-front-of-a-given-linked-list/"
+      },
+      {
+         "ID": "15235",
+         "Name": "Add \u201c1\u201d to a number represented as a Linked List.",
+         "Link": "https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1"
+      },
+      {
+         "ID": "15236",
+         "Name": "Add two numbers represented by linked lists.",
+         "Link": "https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1"
+      },
+      {
+         "ID": "15237",
+         "Name": "Intersection of two Sorted Linked List.",
+         "Link": "https://practice.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1"
+      },
+      {
+         "ID": "15238",
+         "Name": "Intersection Point of two Linked Lists.",
+         "Link": "https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1"
+      },
+      {
+         "ID": "15239",
+         "Name": "Merge Sort For Linked lists.[Very Important]",
+         "Link": "https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1"
+      },
+      {
+         "ID": "15240",
+         "Name": "Quicksort for Linked Lists.[Very Important]",
+         "Link": "https://practice.geeksforgeeks.org/problems/quick-sort-on-linked-list/1"
+      },
+      {
+         "ID": "15241",
+         "Name": "Find the middle Element of a linked list.",
+         "Link": "https://leetcode.com/problems/middle-of-the-linked-list/"
+      },
+      {
+         "ID": "15242",
+         "Name": "Check if a linked list is a circular linked list.",
+         "Link": "https://practice.geeksforgeeks.org/problems/circular-linked-list/1"
+      },
+      {
+         "ID": "15243",
+         "Name": "Split a Circular linked list into two halves.",
+         "Link": "https://practice.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1"
+      },
+      {
+         "ID": "15244",
+         "Name": "Write a Program to check whether the Singly Linked list is a palindrome or not.",
+         "Link": "https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1"
+      },
+      {
+         "ID": "15245",
+         "Name": "Deletion from a Circular Linked List.",
+         "Link": "https://www.geeksforgeeks.org/deletion-circular-linked-list/"
+      },
+      {
+         "ID": "15246",
+         "Name": "Reverse a Doubly Linked list.",
+         "Link": "https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1"
+      },
+      {
+         "ID": "15247",
+         "Name": "Find pairs with a given sum in a DLL.",
+         "Link": "https://www.geeksforgeeks.org/find-pairs-given-sum-doubly-linked-list/"
+      },
+      {
+         "ID": "15248",
+         "Name": "Count triplets in a sorted DLL whose sum is equal to given value \u201cX\u201d.",
+         "Link": "https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/"
+      },
+      {
+         "ID": "15249",
+         "Name": "Sort a \u201ck\u201dsorted Doubly Linked list.[Very IMP]",
+         "Link": "https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/"
+      },
+      {
+         "ID": "15250",
+         "Name": "Rotate DoublyLinked list by N nodes.",
+         "Link": "https://www.geeksforgeeks.org/rotate-doubly-linked-list-n-nodes/"
+      },
+      {
+         "ID": "15251",
+         "Name": "Rotate a Doubly Linked list in group of Given Size.[Very IMP]",
+         "Link": "https://www.geeksforgeeks.org/reverse-doubly-linked-list-groups-given-size/"
+      },
+      {
+         "ID": "15252",
+         "Name": "Can we reverse a linked list in less than O(n) ?",
+         "Link": ""
+      },
+      {
+         "ID": "15253",
+         "Name": "Why Quicksort is preferred for. Arrays and Merge Sort for LinkedLists ?",
+         "Link": ""
+      },
+      {
+         "ID": "15254",
+         "Name": "Flatten a Linked List",
+         "Link": "https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1"
+      },
+      {
+         "ID": "15255",
+         "Name": "Sort a LL of 0's, 1's and 2's",
+         "Link": "https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1"
+      },
+      {
+         "ID": "15256",
+         "Name": "Clone a linked list with next and random pointer",
+         "Link": "https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1"
+      },
+      {
+         "ID": "15257",
+         "Name": "Merge K sorted Linked list",
+         "Link": "https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1"
+      },
+      {
+         "ID": "15258",
+         "Name": "Multiply 2 no. represented by LL",
+         "Link": "https://practice.geeksforgeeks.org/problems/multiply-two-linked-lists/1"
+      },
+      {
+         "ID": "15259",
+         "Name": "Delete nodes which have a greater value on right side",
+         "Link": "https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1"
+      },
+      {
+         "ID": "15260",
+         "Name": "Segregate even and odd nodes in a Linked List",
+         "Link": "https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list/0"
+      },
+      {
+         "ID": "15261",
+         "Name": "Program for n\u2019th node from the end of a Linked List",
+         "Link": "https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1"
+      },
+      {
+         "ID": "15262",
+         "Name": "Find the first non-repeating character from a stream of characters",
+         "Link": "https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0"
+      },
+      {
+         "ID": "15263",
+         "Name": "level order traversal",
+         "Link": "https://practice.geeksforgeeks.org/problems/level-order-traversal/1"
+      },
+      {
+         "ID": "15264",
+         "Name": "Reverse Level Order traversal",
+         "Link": "https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1"
+      },
+      {
+         "ID": "15265",
+         "Name": "Height of a tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1"
+      },
+      {
+         "ID": "15266",
+         "Name": "Diameter of a tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1"
+      },
+      {
+         "ID": "15267",
+         "Name": "Mirror of a tree",
+         "Link": "https://www.geeksforgeeks.org/create-a-mirror-tree-from-the-given-binary-tree/"
+      },
+      {
+         "ID": "15268",
+         "Name": "Inorder Traversal of a tree both using recursion and Iteration",
+         "Link": "https://www.techiedelight.com/inorder-tree-traversal-iterative-recursive/"
+      },
+      {
+         "ID": "15269",
+         "Name": "Preorder Traversal of a tree both using recursion and Iteration",
+         "Link": "https://www.techiedelight.com/preorder-tree-traversal-iterative-recursive/"
+      },
+      {
+         "ID": "15270",
+         "Name": "Postorder Traversal of a tree both using recursion and Iteration",
+         "Link": "https://www.techiedelight.com/postorder-tree-traversal-iterative-recursive/"
+      },
+      {
+         "ID": "15271",
+         "Name": "Left View of a tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1"
+      },
+      {
+         "ID": "15272",
+         "Name": "Right View of Tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/right-view-of-binary-tree/1"
+      },
+      {
+         "ID": "15273",
+         "Name": "Top View of a tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1"
+      },
+      {
+         "ID": "15274",
+         "Name": "Bottom View of a tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1"
+      },
+      {
+         "ID": "15275",
+         "Name": "Zig-Zag traversal of a binary tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1"
+      },
+      {
+         "ID": "15276",
+         "Name": "Check if a tree is balanced or not",
+         "Link": "https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1"
+      },
+      {
+         "ID": "15277",
+         "Name": "Diagnol Traversal of a Binary tree",
+         "Link": "https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/"
+      },
+      {
+         "ID": "15278",
+         "Name": "Boundary traversal of a Binary tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1"
+      },
+      {
+         "ID": "15279",
+         "Name": "Construct Binary Tree from String with Bracket Representation",
+         "Link": "https://www.geeksforgeeks.org/construct-binary-tree-string-bracket-representation/"
+      },
+      {
+         "ID": "15280",
+         "Name": "Convert Binary tree into Doubly Linked List",
+         "Link": "https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1"
+      },
+      {
+         "ID": "15281",
+         "Name": "Convert Binary tree into Sum tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1"
+      },
+      {
+         "ID": "15282",
+         "Name": "Construct Binary tree from Inorder and preorder traversal",
+         "Link": "https://practice.geeksforgeeks.org/problems/construct-tree-1/1"
+      },
+      {
+         "ID": "15283",
+         "Name": "Find minimum swaps required to convert a Binary tree into BST",
+         "Link": "https://www.geeksforgeeks.org/minimum-swap-required-convert-binary-tree-binary-search-tree/"
+      },
+      {
+         "ID": "15284",
+         "Name": "Check if Binary tree is Sum tree or not",
+         "Link": "https://practice.geeksforgeeks.org/problems/sum-tree/1"
+      },
+      {
+         "ID": "15285",
+         "Name": "Check if all leaf nodes are at same level or not",
+         "Link": "https://practice.geeksforgeeks.org/problems/leaf-at-same-level/1"
+      },
+      {
+         "ID": "15286",
+         "Name": "Check if a Binary Tree contains duplicate subtrees of size 2 or more [ IMP ]",
+         "Link": "https://practice.geeksforgeeks.org/problems/duplicate-subtree-in-binary-tree/1"
+      },
+      {
+         "ID": "15287",
+         "Name": "Check if 2 trees are mirror or not",
+         "Link": "https://practice.geeksforgeeks.org/problems/check-mirror-in-n-ary-tree/0"
+      },
+      {
+         "ID": "15288",
+         "Name": "Sum of Nodes on the Longest path from root to leaf node ",
+         "Link": "https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1"
+      },
+      {
+         "ID": "15289",
+         "Name": "Check if given graph is tree or not.  [ IMP ]",
+         "Link": "https://www.geeksforgeeks.org/check-given-graph-tree/"
+      },
+      {
+         "ID": "15290",
+         "Name": "Find Largest subtree sum in a tree",
+         "Link": "https://www.geeksforgeeks.org/find-largest-subtree-sum-tree/"
+      },
+      {
+         "ID": "15291",
+         "Name": "Maximum Sum of nodes in Binary tree such that no two are adjacent ",
+         "Link": "https://www.geeksforgeeks.org/maximum-sum-nodes-binary-tree-no-two-adjacent/"
+      },
+      {
+         "ID": "15292",
+         "Name": "Print all \"K\" Sum paths in a Binary tree",
+         "Link": "https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/"
+      },
+      {
+         "ID": "15293",
+         "Name": "Find LCA in a Binary tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1"
+      },
+      {
+         "ID": "15294",
+         "Name": "Find distance between 2 nodes in a Binary tree",
+         "Link": "https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1"
+      },
+      {
+         "ID": "15295",
+         "Name": "Kth Ancestor of node in a Binary tree",
+         "Link": "https://www.geeksforgeeks.org/kth-ancestor-node-binary-tree-set-2/"
+      },
+      {
+         "ID": "15296",
+         "Name": "Find all Duplicate subtrees in a Binary tree [ IMP ]",
+         "Link": "https://practice.geeksforgeeks.org/problems/duplicate-subtrees/1"
+      },
+      {
+         "ID": "15297",
+         "Name": "Tree Isomorphism Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1"
+      },
+      {
+         "ID": "15298",
+         "Name": "Fina a value in a BST",
+         "Link": "https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/"
+      },
+      {
+         "ID": "15299",
+         "Name": "Deletion of a node in a BST",
+         "Link": "https://leetcode.com/problems/delete-node-in-a-bst/"
+      },
+      {
+         "ID": "15300",
+         "Name": "Find min and max value in a BST",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1"
+      },
+      {
+         "ID": "15301",
+         "Name": "Find inorder successor and inorder predecessor in a BST",
+         "Link": "https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1"
+      },
+      {
+         "ID": "15302",
+         "Name": "Check if a tree is a BST or not ",
+         "Link": "https://practice.geeksforgeeks.org/problems/check-for-bst/1"
+      },
+      {
+         "ID": "15303",
+         "Name": "Populate Inorder successor of all nodes",
+         "Link": "https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1"
+      },
+      {
+         "ID": "15304",
+         "Name": "Find LCA  of 2 nodes in a BST",
+         "Link": "https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1"
+      },
+      {
+         "ID": "15305",
+         "Name": "Construct BST from preorder traversal",
+         "Link": "https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/"
+      },
+      {
+         "ID": "15306",
+         "Name": "Convert Binary tree into BST",
+         "Link": "https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1"
+      },
+      {
+         "ID": "15307",
+         "Name": "Convert a normal BST into a Balanced BST",
+         "Link": "https://www.geeksforgeeks.org/convert-normal-bst-balanced-bst/"
+      },
+      {
+         "ID": "15308",
+         "Name": "Merge two BST [ V.V.V>IMP ]",
+         "Link": "https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/"
+      },
+      {
+         "ID": "15309",
+         "Name": "Find Kth largest element in a BST",
+         "Link": "https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1"
+      },
+      {
+         "ID": "15310",
+         "Name": "Find Kth smallest element in a BST",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1"
+      },
+      {
+         "ID": "15311",
+         "Name": "Count pairs from 2 BST whose sum is equal to given value \"X\"",
+         "Link": "https://practice.geeksforgeeks.org/problems/brothers-from-different-root/1"
+      },
+      {
+         "ID": "15312",
+         "Name": "Find the median of BST in O(n) time and O(1) space",
+         "Link": "https://www.geeksforgeeks.org/find-median-bst-time-o1-space/"
+      },
+      {
+         "ID": "15313",
+         "Name": "Count BST ndoes that lie in a given range",
+         "Link": "https://practice.geeksforgeeks.org/problems/count-bst-nodes-that-lie-in-a-given-range/1"
+      },
+      {
+         "ID": "15314",
+         "Name": "Replace every element with the least greater element on its right",
+         "Link": "https://www.geeksforgeeks.org/replace-every-element-with-the-least-greater-element-on-its-right/"
+      },
+      {
+         "ID": "15315",
+         "Name": "Given \"n\" appointments, find the conflicting appointments",
+         "Link": "https://www.geeksforgeeks.org/given-n-appointments-find-conflicting-appointments/"
+      },
+      {
+         "ID": "15316",
+         "Name": "Check preorder is valid or not",
+         "Link": "https://practice.geeksforgeeks.org/problems/preorder-to-postorder/0"
+      },
+      {
+         "ID": "15317",
+         "Name": "Check whether BST contains Dead end",
+         "Link": "https://practice.geeksforgeeks.org/problems/check-whether-bst-contains-dead-end/1"
+      },
+      {
+         "ID": "15318",
+         "Name": "Largest BST in a Binary Tree [ V.V.V.V.V IMP ]",
+         "Link": "https://practice.geeksforgeeks.org/problems/largest-bst/1"
+      },
+      {
+         "ID": "15319",
+         "Name": "Flatten BST to sorted list",
+         "Link": "https://www.geeksforgeeks.org/flatten-bst-to-sorted-list-increasing-order/"
+      },
+      {
+         "ID": "15320",
+         "Name": "Activity Selection Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0"
+      },
+      {
+         "ID": "15321",
+         "Name": "Job SequencingProblem",
+         "Link": "https://practice.geeksforgeeks.org/problems/job-sequencing-problem/0"
+      },
+      {
+         "ID": "15322",
+         "Name": "Huffman Coding",
+         "Link": "https://practice.geeksforgeeks.org/problems/huffman-encoding/0"
+      },
+      {
+         "ID": "15323",
+         "Name": "Water Connection Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/water-connection-problem/0"
+      },
+      {
+         "ID": "15324",
+         "Name": "Fractional Knapsack Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/fractional-knapsack/0"
+      },
+      {
+         "ID": "15325",
+         "Name": "Greedy Algorithm to find Minimum number of Coins",
+         "Link": "https://practice.geeksforgeeks.org/problems/coin-piles/0"
+      },
+      {
+         "ID": "15326",
+         "Name": "Maximum trains for which stoppage can be provided",
+         "Link": "https://www.geeksforgeeks.org/maximum-trains-stoppage-can-provided/"
+      },
+      {
+         "ID": "15327",
+         "Name": "Minimum Platforms Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-platforms/0"
+      },
+      {
+         "ID": "15328",
+         "Name": "Buy Maximum Stocks if i stocks can be bought on i-th day",
+         "Link": "https://www.geeksforgeeks.org/buy-maximum-stocks-stocks-can-bought-th-day/"
+      },
+      {
+         "ID": "15329",
+         "Name": "Find the minimum and maximum amount to buy all N candies",
+         "Link": "https://practice.geeksforgeeks.org/problems/shop-in-candy-store/0"
+      },
+      {
+         "ID": "15330",
+         "Name": "Minimize Cash Flow among a given set of friends who have borrowed money from each other",
+         "Link": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/"
+      },
+      {
+         "ID": "15331",
+         "Name": "Minimum Cost to cut a board into squares",
+         "Link": "https://www.geeksforgeeks.org/minimum-cost-cut-board-squares/"
+      },
+      {
+         "ID": "15332",
+         "Name": "Check if it is possible to survive on Island",
+         "Link": "https://www.geeksforgeeks.org/survival/"
+      },
+      {
+         "ID": "15333",
+         "Name": "Find maximum meetings in one room",
+         "Link": "https://www.geeksforgeeks.org/find-maximum-meetings-in-one-room/"
+      },
+      {
+         "ID": "15334",
+         "Name": "Maximum product subset of an array",
+         "Link": "https://www.geeksforgeeks.org/maximum-product-subset-array/"
+      },
+      {
+         "ID": "15335",
+         "Name": "Maximize array sum after K negations",
+         "Link": "https://practice.geeksforgeeks.org/problems/maximize-sum-after-k-negations/0"
+      },
+      {
+         "ID": "15336",
+         "Name": "Maximize the sum of arr[i]*i",
+         "Link": "https://practice.geeksforgeeks.org/problems/maximize-arrii-of-an-array/0"
+      },
+      {
+         "ID": "15337",
+         "Name": "Maximum sum of absolute difference of an array",
+         "Link": "https://www.geeksforgeeks.org/maximum-sum-absolute-difference-array/"
+      },
+      {
+         "ID": "15338",
+         "Name": "Maximize sum of consecutive differences in a circular array",
+         "Link": "https://practice.geeksforgeeks.org/problems/swap-and-maximize/0"
+      },
+      {
+         "ID": "15339",
+         "Name": "Minimum sum of absolute difference of pairs of two arrays",
+         "Link": "https://www.geeksforgeeks.org/minimum-sum-absolute-difference-pairs-two-arrays/"
+      },
+      {
+         "ID": "15340",
+         "Name": "Program for Shortest Job First (or SJF) CPU Scheduling",
+         "Link": "https://www.geeksforgeeks.org/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/"
+      },
+      {
+         "ID": "15341",
+         "Name": "Program for Least Recently Used (LRU) Page Replacement algorithm",
+         "Link": "https://practice.geeksforgeeks.org/problems/page-faults-in-lru/0"
+      },
+      {
+         "ID": "15342",
+         "Name": "Smallest subset with sum greater than all other elements",
+         "Link": "https://www.geeksforgeeks.org/smallest-subset-sum-greater-elements/"
+      },
+      {
+         "ID": "15343",
+         "Name": "Chocolate Distribution Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0"
+      },
+      {
+         "ID": "15344",
+         "Name": "DEFKIN -Defense of a Kingdom",
+         "Link": "https://www.spoj.com/problems/DEFKIN/"
+      },
+      {
+         "ID": "15345",
+         "Name": "DIEHARD -DIE HARD",
+         "Link": "https://www.spoj.com/problems/DIEHARD/"
+      },
+      {
+         "ID": "15346",
+         "Name": "GERGOVIA -Wine trading in Gergovia",
+         "Link": "https://www.spoj.com/problems/GERGOVIA/"
+      },
+      {
+         "ID": "15347",
+         "Name": "Picking Up Chicks",
+         "Link": "https://www.spoj.com/problems/GCJ101BB/"
+      },
+      {
+         "ID": "15348",
+         "Name": "CHOCOLA \u2013Chocolate",
+         "Link": "https://www.spoj.com/problems/CHOCOLA/"
+      },
+      {
+         "ID": "15349",
+         "Name": "ARRANGE -Arranging Amplifiers",
+         "Link": "https://www.spoj.com/problems/ARRANGE/"
+      },
+      {
+         "ID": "15350",
+         "Name": "K Centers Problem",
+         "Link": "https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/"
+      },
+      {
+         "ID": "15351",
+         "Name": "Minimum Cost of ropes",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0"
+      },
+      {
+         "ID": "15352",
+         "Name": "Find smallest number with given number of digits and sum of digits",
+         "Link": "https://practice.geeksforgeeks.org/problems/smallest-number5829/1"
+      },
+      {
+         "ID": "15353",
+         "Name": "Rearrange characters in a string such that no two adjacent are same",
+         "Link": "https://practice.geeksforgeeks.org/problems/rearrange-characters/0"
+      },
+      {
+         "ID": "15354",
+         "Name": "Find maximum sum possible equal sum of three stacks",
+         "Link": "https://www.geeksforgeeks.org/find-maximum-sum-possible-equal-sum-three-stacks/"
+      },
+      {
+         "ID": "15355",
+         "Name": "Rat in a maze Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+      },
+      {
+         "ID": "15356",
+         "Name": "Printing all solutions in N-Queen Problem",
+         "Link": "https://www.geeksforgeeks.org/printing-solutions-n-queen-problem/"
+      },
+      {
+         "ID": "15357",
+         "Name": "Word Break Problem using Backtracking",
+         "Link": "https://practice.geeksforgeeks.org/problems/word-break-part-2/0"
+      },
+      {
+         "ID": "15358",
+         "Name": "Remove Invalid Parentheses",
+         "Link": "https://leetcode.com/problems/remove-invalid-parentheses/"
+      },
+      {
+         "ID": "15359",
+         "Name": "Sudoku Solver",
+         "Link": "https://practice.geeksforgeeks.org/problems/solve-the-sudoku/0"
+      },
+      {
+         "ID": "15360",
+         "Name": "m Coloring Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/m-coloring-problem/0"
+      },
+      {
+         "ID": "15361",
+         "Name": "Print all palindromic partitions of a string",
+         "Link": "https://www.geeksforgeeks.org/given-a-string-print-all-possible-palindromic-partition/"
+      },
+      {
+         "ID": "15362",
+         "Name": "Subset Sum Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1"
+      },
+      {
+         "ID": "15363",
+         "Name": "The Knight\u2019s tour problem",
+         "Link": "https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/"
+      },
+      {
+         "ID": "15364",
+         "Name": "Tug of War",
+         "Link": "https://www.geeksforgeeks.org/tug-of-war/"
+      },
+      {
+         "ID": "15365",
+         "Name": "Find shortest safe route in a path with landmines",
+         "Link": "https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/"
+      },
+      {
+         "ID": "15366",
+         "Name": "Combinational Sum",
+         "Link": "https://practice.geeksforgeeks.org/problems/combination-sum/0"
+      },
+      {
+         "ID": "15367",
+         "Name": "Find Maximum number possible by doing at-most K swaps",
+         "Link": "https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps/0"
+      },
+      {
+         "ID": "15368",
+         "Name": "Print all permutations of a string ",
+         "Link": "https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0"
+      },
+      {
+         "ID": "15369",
+         "Name": "Find if there is a path of more than k length from a source",
+         "Link": "https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/"
+      },
+      {
+         "ID": "15370",
+         "Name": "Longest Possible Route in a Matrix with Hurdles",
+         "Link": "https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/"
+      },
+      {
+         "ID": "15371",
+         "Name": "Print all possible paths from top left to bottom right of a mXn matrix",
+         "Link": "https://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/"
+      },
+      {
+         "ID": "15372",
+         "Name": "Partition of a set intoK subsets with equal sum",
+         "Link": "https://practice.geeksforgeeks.org/problems/partition-array-to-k-subsets/1"
+      },
+      {
+         "ID": "15373",
+         "Name": "Find the K-th Permutation Sequence of first N natural numbers",
+         "Link": "https://www.geeksforgeeks.org/find-the-k-th-permutation-sequence-of-first-n-natural-numbers/"
+      },
+      {
+         "ID": "15374",
+         "Name": " Implement Stack from Scratch",
+         "Link": "https://www.tutorialspoint.com/javaexamples/data_stack.htm"
+      },
+      {
+         "ID": "15375",
+         "Name": " Implement Queue from Scratch",
+         "Link": "https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/"
+      },
+      {
+         "ID": "15376",
+         "Name": "Implement 2 stack in an array",
+         "Link": "https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1"
+      },
+      {
+         "ID": "15377",
+         "Name": "find the middle element of a stack",
+         "Link": "https://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/"
+      },
+      {
+         "ID": "15378",
+         "Name": "Implement \"N\" stacks in an Array",
+         "Link": "https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/"
+      },
+      {
+         "ID": "15379",
+         "Name": "Check the expression has valid or Balanced parenthesis or not.",
+         "Link": "https://practice.geeksforgeeks.org/problems/parenthesis-checker/0"
+      },
+      {
+         "ID": "15380",
+         "Name": "Reverse a String using Stack",
+         "Link": "https://practice.geeksforgeeks.org/problems/reverse-a-string-using-stack/1"
+      },
+      {
+         "ID": "15381",
+         "Name": "Design a Stack that supports getMin() in O(1) time and O(1) extra space.",
+         "Link": "https://practice.geeksforgeeks.org/problems/special-stack/1"
+      },
+      {
+         "ID": "15382",
+         "Name": "Find the next Greater element",
+         "Link": "https://practice.geeksforgeeks.org/problems/next-larger-element/0"
+      },
+      {
+         "ID": "15383",
+         "Name": "The celebrity Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1"
+      },
+      {
+         "ID": "15384",
+         "Name": "Arithmetic Expression evaluation",
+         "Link": "https://www.geeksforgeeks.org/arithmetic-expression-evalution/"
+      },
+      {
+         "ID": "15385",
+         "Name": "Evaluation of Postfix expression",
+         "Link": "https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0"
+      },
+      {
+         "ID": "15386",
+         "Name": "Implement a method to insert an element at its bottom without using any other data structure.",
+         "Link": "https://stackoverflow.com/questions/45130465/inserting-at-the-end-of-stack"
+      },
+      {
+         "ID": "15387",
+         "Name": "Reverse a stack using recursion",
+         "Link": "https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/"
+      },
+      {
+         "ID": "15388",
+         "Name": "Sort a Stack using recursion",
+         "Link": "https://practice.geeksforgeeks.org/problems/sort-a-stack/1"
+      },
+      {
+         "ID": "15389",
+         "Name": "Merge Overlapping Intervals",
+         "Link": "https://practice.geeksforgeeks.org/problems/overlapping-intervals/0"
+      },
+      {
+         "ID": "15390",
+         "Name": "Largest rectangular Area in Histogram",
+         "Link": "https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram/0"
+      },
+      {
+         "ID": "15391",
+         "Name": "Length of the Longest Valid Substring",
+         "Link": "https://practice.geeksforgeeks.org/problems/valid-substring0624/1"
+      },
+      {
+         "ID": "15392",
+         "Name": "Expression contains redundant bracket or not",
+         "Link": "https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/"
+      },
+      {
+         "ID": "15393",
+         "Name": "Implement Stack using Queue",
+         "Link": "https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1"
+      },
+      {
+         "ID": "15394",
+         "Name": "Implement Stack using Deque",
+         "Link": "https://www.geeksforgeeks.org/implement-stack-queue-using-deque/"
+      },
+      {
+         "ID": "15395",
+         "Name": "Stack Permutations (Check if an array is stack permutation of other)",
+         "Link": "https://www.geeksforgeeks.org/stack-permutations-check-if-an-array-is-stack-permutation-of-other/"
+      },
+      {
+         "ID": "15396",
+         "Name": "Implement Queue using Stack  ",
+         "Link": "https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1"
+      },
+      {
+         "ID": "15397",
+         "Name": "Implement \"n\" queue in an array",
+         "Link": "https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/"
+      },
+      {
+         "ID": "15398",
+         "Name": "Implement a Circular queue",
+         "Link": "https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/"
+      },
+      {
+         "ID": "15399",
+         "Name": "LRU Cache Implementationa",
+         "Link": "https://practice.geeksforgeeks.org/problems/lru-cache/1"
+      },
+      {
+         "ID": "15400",
+         "Name": "Reverse a Queue using recursion",
+         "Link": "https://practice.geeksforgeeks.org/problems/queue-reversal/1"
+      },
+      {
+         "ID": "15401",
+         "Name": "Reverse the first \u201cK\u201d elements of a queue",
+         "Link": "https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1"
+      },
+      {
+         "ID": "15402",
+         "Name": "Interleave the first half of the queue with second half",
+         "Link": "https://www.geeksforgeeks.org/interleave-first-half-queue-second-half/"
+      },
+      {
+         "ID": "15403",
+         "Name": "Find the first circular tour that visits all Petrol Pumps",
+         "Link": "https://practice.geeksforgeeks.org/problems/circular-tour/1"
+      },
+      {
+         "ID": "15404",
+         "Name": "Minimum time required to rot all oranges",
+         "Link": "https://practice.geeksforgeeks.org/problems/rotten-oranges/0"
+      },
+      {
+         "ID": "15405",
+         "Name": "Distance of nearest cell having 1 in a binary matrix",
+         "Link": "https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1/0"
+      },
+      {
+         "ID": "15406",
+         "Name": "First negative integer in every window of size \u201ck\u201d",
+         "Link": "https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k/0"
+      },
+      {
+         "ID": "15407",
+         "Name": "Check if all levels of two trees are anagrams or not.",
+         "Link": "https://www.geeksforgeeks.org/check-if-all-levels-of-two-trees-are-anagrams-or-not/"
+      },
+      {
+         "ID": "15408",
+         "Name": "Sum of minimum and maximum elements of all subarrays of size \u201ck\u201d.",
+         "Link": "https://www.geeksforgeeks.org/sum-minimum-maximum-elements-subarrays-size-k/"
+      },
+      {
+         "ID": "15409",
+         "Name": "Minimum sum of squares of character counts in a given string after removing \u201ck\u201d characters.",
+         "Link": "https://practice.geeksforgeeks.org/problems/game-with-string/0"
+      },
+      {
+         "ID": "15410",
+         "Name": "Queue based approach or first non-repeating character in a stream.",
+         "Link": "https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0"
+      },
+      {
+         "ID": "15411",
+         "Name": "Next Smaller Element",
+         "Link": "https://www.geeksforgeeks.org/next-smaller-element/"
+      },
+      {
+         "ID": "15412",
+         "Name": "Implement a Maxheap/MinHeap using arrays and recursion.",
+         "Link": "https://www.geeksforgeeks.org/building-heap-from-array/"
+      },
+      {
+         "ID": "15413",
+         "Name": "Sort an Array using heap. (HeapSort)",
+         "Link": "https://www.geeksforgeeks.org/heap-sort/"
+      },
+      {
+         "ID": "15414",
+         "Name": "Maximum of all subarrays of size k.",
+         "Link": "https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/"
+      },
+      {
+         "ID": "15415",
+         "Name": "\u201ck\u201d largest element in an array",
+         "Link": "https://practice.geeksforgeeks.org/problems/k-largest-elements4206/1"
+      },
+      {
+         "ID": "15416",
+         "Name": "Kth smallest and largest element in an unsorted array",
+         "Link": "https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/"
+      },
+      {
+         "ID": "15417",
+         "Name": "Merge \u201cK\u201d sorted arrays. [ IMP ]",
+         "Link": "https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1"
+      },
+      {
+         "ID": "15418",
+         "Name": "Merge 2 Binary Max Heaps",
+         "Link": "https://practice.geeksforgeeks.org/problems/merge-two-binary-max-heap/0"
+      },
+      {
+         "ID": "15419",
+         "Name": "Kth largest sum continuous subarrays",
+         "Link": "https://www.geeksforgeeks.org/k-th-largest-sum-contiguous-subarray/"
+      },
+      {
+         "ID": "15420",
+         "Name": "Leetcode- reorganize strings",
+         "Link": "https://leetcode.com/problems/reorganize-string/"
+      },
+      {
+         "ID": "15421",
+         "Name": "Merge \u201cK\u201d Sorted Linked Lists [V.IMP]",
+         "Link": "https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1"
+      },
+      {
+         "ID": "15422",
+         "Name": "Smallest range in \u201cK\u201d Lists",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1"
+      },
+      {
+         "ID": "15423",
+         "Name": "Median in a stream of Integers",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0"
+      },
+      {
+         "ID": "15424",
+         "Name": "Check if a Binary Tree is Heap",
+         "Link": "https://practice.geeksforgeeks.org/problems/is-binary-tree-heap/1"
+      },
+      {
+         "ID": "15425",
+         "Name": "Connect \u201cn\u201d ropes with minimum cost",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0"
+      },
+      {
+         "ID": "15426",
+         "Name": "Convert BST to Min Heap",
+         "Link": "https://www.geeksforgeeks.org/convert-bst-min-heap/"
+      },
+      {
+         "ID": "15427",
+         "Name": "Convert min heap to max heap",
+         "Link": "https://www.geeksforgeeks.org/convert-min-heap-to-max-heap/"
+      },
+      {
+         "ID": "15428",
+         "Name": "Rearrange characters in a string such that no two adjacent are same.",
+         "Link": "https://practice.geeksforgeeks.org/problems/rearrange-characters/0"
+      },
+      {
+         "ID": "15429",
+         "Name": "Minimum sum of two numbers formed from digits of an array",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-sum4058/1"
+      },
+      {
+         "ID": "15430",
+         "Name": "Create a Graph, print it",
+         "Link": "https://1drv.ms/t/s!AqTOHFO77CqEiRua06v1PATyiFg5"
+      },
+      {
+         "ID": "15431",
+         "Name": "Implement BFS algorithm ",
+         "Link": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1"
+      },
+      {
+         "ID": "15432",
+         "Name": "Implement DFS Algo ",
+         "Link": "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/"
+      },
+      {
+         "ID": "15433",
+         "Name": "Detect Cycle in Directed Graph using BFS/DFS Algo ",
+         "Link": "https://www.geeksforgeeks.org/detect-cycle-in-a-graph/"
+      },
+      {
+         "ID": "15434",
+         "Name": "Detect Cycle in UnDirected Graph using BFS/DFS Algo ",
+         "Link": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1"
+      },
+      {
+         "ID": "15435",
+         "Name": "Search in a Maze",
+         "Link": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+      },
+      {
+         "ID": "15436",
+         "Name": "Minimum Step by Knight",
+         "Link": "https://practice.geeksforgeeks.org/problems/steps-by-knight/0"
+      },
+      {
+         "ID": "15437",
+         "Name": "flood fill algo",
+         "Link": "https://leetcode.com/problems/flood-fill/"
+      },
+      {
+         "ID": "15438",
+         "Name": "Clone a graph",
+         "Link": "https://leetcode.com/problems/clone-graph/"
+      },
+      {
+         "ID": "15439",
+         "Name": "Making wired Connections",
+         "Link": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+      },
+      {
+         "ID": "15440",
+         "Name": "word Ladder ",
+         "Link": "https://leetcode.com/problems/word-ladder/"
+      },
+      {
+         "ID": "15441",
+         "Name": "Dijkstra algo",
+         "Link": "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"
+      },
+      {
+         "ID": "15442",
+         "Name": "Implement Topological Sort ",
+         "Link": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+      },
+      {
+         "ID": "15443",
+         "Name": "Minimum time taken by each job to be completed given by a Directed Acyclic Graph",
+         "Link": "https://www.geeksforgeeks.org/minimum-time-taken-by-each-job-to-be-completed-given-by-a-directed-acyclic-graph/"
+      },
+      {
+         "ID": "15444",
+         "Name": "Find whether it is possible to finish all tasks or not from given dependencies",
+         "Link": "https://www.geeksforgeeks.org/find-whether-it-is-possible-to-finish-all-tasks-or-not-from-given-dependencies/"
+      },
+      {
+         "ID": "15445",
+         "Name": "Find the no. of Isalnds",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1"
+      },
+      {
+         "ID": "15446",
+         "Name": "Given a sorted Dictionary of an Alien Language, find order of characters",
+         "Link": "https://practice.geeksforgeeks.org/problems/alien-dictionary/1"
+      },
+      {
+         "ID": "15447",
+         "Name": "Implement Kruksal\u2019sAlgorithm",
+         "Link": "https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/"
+      },
+      {
+         "ID": "15448",
+         "Name": "Implement Prim\u2019s Algorithm",
+         "Link": "https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/"
+      },
+      {
+         "ID": "15449",
+         "Name": "Total no. of Spanning tree in a graph",
+         "Link": "https://www.geeksforgeeks.org/total-number-spanning-trees-graph/"
+      },
+      {
+         "ID": "15450",
+         "Name": "Implement Bellman Ford Algorithm",
+         "Link": "https://practice.geeksforgeeks.org/problems/negative-weight-cycle/0"
+      },
+      {
+         "ID": "15451",
+         "Name": "Implement Floyd warshallAlgorithm",
+         "Link": "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0"
+      },
+      {
+         "ID": "15452",
+         "Name": "Travelling Salesman Problem",
+         "Link": "https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/"
+      },
+      {
+         "ID": "15453",
+         "Name": "Graph ColouringProblem",
+         "Link": "https://www.geeksforgeeks.org/graph-coloring-applications/"
+      },
+      {
+         "ID": "15454",
+         "Name": "Snake and Ladders Problem",
+         "Link": "https://leetcode.com/problems/snakes-and-ladders/"
+      },
+      {
+         "ID": "15455",
+         "Name": "Find bridge in a graph",
+         "Link": "https://www.geeksforgeeks.org/bridge-in-a-graph/"
+      },
+      {
+         "ID": "15456",
+         "Name": "Count Strongly connected Components(Kosaraju Algo)",
+         "Link": "https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1"
+      },
+      {
+         "ID": "15457",
+         "Name": "Check whether a graph is Bipartite or Not",
+         "Link": "https://www.geeksforgeeks.org/bipartite-graph/"
+      },
+      {
+         "ID": "15458",
+         "Name": "Detect Negative cycle in a graph",
+         "Link": "https://www.geeksforgeeks.org/detect-negative-cycle-graph-bellman-ford/"
+      },
+      {
+         "ID": "15459",
+         "Name": "Longest path in a Directed Acyclic Graph",
+         "Link": "https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/"
+      },
+      {
+         "ID": "15460",
+         "Name": "Journey to the Moon",
+         "Link": "https://www.hackerrank.com/challenges/journey-to-the-moon/problem"
+      },
+      {
+         "ID": "15461",
+         "Name": "Cheapest Flights Within K Stops",
+         "Link": "https://leetcode.com/problems/cheapest-flights-within-k-stops/description/"
+      },
+      {
+         "ID": "15462",
+         "Name": "Oliver and the Game",
+         "Link": "https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/practice-problems/algorithm/oliver-and-the-game-3/"
+      },
+      {
+         "ID": "15463",
+         "Name": "Water Jug problem using BFS",
+         "Link": "https://www.geeksforgeeks.org/water-jug-problem-using-bfs/"
+      },
+      {
+         "ID": "15464",
+         "Name": "Water Jug problem using BFS",
+         "Link": "https://www.geeksforgeeks.org/water-jug-problem-using-bfs/"
+      },
+      {
+         "ID": "15465",
+         "Name": "Find if there is a path of more thank length from a source",
+         "Link": "https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/"
+      },
+      {
+         "ID": "15466",
+         "Name": "M-ColouringProblem",
+         "Link": "https://practice.geeksforgeeks.org/problems/m-coloring-problem/0"
+      },
+      {
+         "ID": "15467",
+         "Name": "Minimum edges to reverse o make path from source to destination",
+         "Link": "https://www.geeksforgeeks.org/minimum-edges-reverse-make-path-source-destination/"
+      },
+      {
+         "ID": "15468",
+         "Name": "Paths to travel each nodes using each edge(Seven Bridges)",
+         "Link": "https://www.geeksforgeeks.org/paths-travel-nodes-using-edgeseven-bridges-konigsberg/"
+      },
+      {
+         "ID": "15469",
+         "Name": "Vertex Cover Problem",
+         "Link": "https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm-2/"
+      },
+      {
+         "ID": "15470",
+         "Name": "Chinese Postman or Route Inspection",
+         "Link": "https://www.geeksforgeeks.org/chinese-postman-route-inspection-set-1-introduction/"
+      },
+      {
+         "ID": "15471",
+         "Name": "Number of Triangles in a Directed and Undirected Graph",
+         "Link": "https://www.geeksforgeeks.org/number-of-triangles-in-directed-and-undirected-graphs/"
+      },
+      {
+         "ID": "15472",
+         "Name": "Minimise the cashflow among a given set of friends who have borrowed money from each other",
+         "Link": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/"
+      },
+      {
+         "ID": "15473",
+         "Name": "Two Clique Problem",
+         "Link": "https://www.geeksforgeeks.org/two-clique-problem-check-graph-can-divided-two-cliques/"
+      },
+      {
+         "ID": "15474",
+         "Name": "Construct a trie from scratch",
+         "Link": "https://www.geeksforgeeks.org/trie-insert-and-search/"
+      },
+      {
+         "ID": "15475",
+         "Name": "Find shortest unique prefix for every word in a given list",
+         "Link": "https://www.geeksforgeeks.org/find-all-shortest-unique-prefixes-to-represent-each-word-in-a-given-list/"
+      },
+      {
+         "ID": "15476",
+         "Name": "Word Break Problem | (Trie solution)",
+         "Link": "https://www.geeksforgeeks.org/word-break-problem-trie-solution/"
+      },
+      {
+         "ID": "15477",
+         "Name": "Given a sequence of words, print all anagrams together",
+         "Link": "https://practice.geeksforgeeks.org/problems/k-anagrams-1/0"
+      },
+      {
+         "ID": "15478",
+         "Name": "Implement a Phone Directory",
+         "Link": "https://practice.geeksforgeeks.org/problems/phone-directory/0"
+      },
+      {
+         "ID": "15479",
+         "Name": "Print unique rows in a given boolean matrix",
+         "Link": "https://practice.geeksforgeeks.org/problems/unique-rows-in-boolean-matrix/1"
+      },
+      {
+         "ID": "15480",
+         "Name": "Coin ChangeProblem",
+         "Link": "https://practice.geeksforgeeks.org/problems/coin-change2448/1"
+      },
+      {
+         "ID": "15481",
+         "Name": "Knapsack Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0"
+      },
+      {
+         "ID": "15482",
+         "Name": "Binomial CoefficientProblem",
+         "Link": "https://practice.geeksforgeeks.org/problems/ncr1019/1"
+      },
+      {
+         "ID": "15483",
+         "Name": "Permutation CoefficientProblem",
+         "Link": "https://www.geeksforgeeks.org/permutation-coefficient/"
+      },
+      {
+         "ID": "15484",
+         "Name": "Program for nth Catalan Number",
+         "Link": "https://www.geeksforgeeks.org/program-nth-catalan-number/"
+      },
+      {
+         "ID": "15485",
+         "Name": "Matrix Chain Multiplication\u00a0",
+         "Link": "https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/"
+      },
+      {
+         "ID": "15486",
+         "Name": "Edit Distance",
+         "Link": "https://practice.geeksforgeeks.org/problems/edit-distance3702/1"
+      },
+      {
+         "ID": "15487",
+         "Name": "Subset Sum Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1"
+      },
+      {
+         "ID": "15488",
+         "Name": "Friends Pairing Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/friends-pairing-problem5425/1"
+      },
+      {
+         "ID": "15489",
+         "Name": "Gold Mine Problem",
+         "Link": "https://www.geeksforgeeks.org/gold-mine-problem/"
+      },
+      {
+         "ID": "15490",
+         "Name": "Assembly Line SchedulingProblem",
+         "Link": "https://www.geeksforgeeks.org/assembly-line-scheduling-dp-34/"
+      },
+      {
+         "ID": "15491",
+         "Name": "Painting the Fenceproblem",
+         "Link": "https://practice.geeksforgeeks.org/problems/painting-the-fence3727/1"
+      },
+      {
+         "ID": "15492",
+         "Name": "Maximize The Cut Segments",
+         "Link": "https://practice.geeksforgeeks.org/problems/cutted-segments/0"
+      },
+      {
+         "ID": "15493",
+         "Name": "Longest Common Subsequence",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0"
+      },
+      {
+         "ID": "15494",
+         "Name": "Longest Repeated Subsequence",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0"
+      },
+      {
+         "ID": "15495",
+         "Name": "Longest Increasing Subsequence",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0"
+      },
+      {
+         "ID": "15496",
+         "Name": "Space Optimized Solution of LCS",
+         "Link": "https://www.geeksforgeeks.org/space-optimized-solution-lcs/"
+      },
+      {
+         "ID": "15497",
+         "Name": "LCS (Longest Common Subsequence) of three strings",
+         "Link": "https://practice.geeksforgeeks.org/problems/lcs-of-three-strings/0"
+      },
+      {
+         "ID": "15498",
+         "Name": "Maximum Sum Increasing Subsequence",
+         "Link": "https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1"
+      },
+      {
+         "ID": "15499",
+         "Name": "Count all subsequences having product less than K",
+         "Link": "https://www.geeksforgeeks.org/count-subsequences-product-less-k/"
+      },
+      {
+         "ID": "15500",
+         "Name": "Longest subsequence such that difference between adjacent is one",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-subsequence-such-that-difference-between-adjacents-is-one4724/1"
+      },
+      {
+         "ID": "15501",
+         "Name": "Maximum subsequence sum such that no three are consecutive",
+         "Link": "https://www.geeksforgeeks.org/maximum-subsequence-sum-such-that-no-three-are-consecutive/"
+      },
+      {
+         "ID": "15502",
+         "Name": "Egg Dropping Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0"
+      },
+      {
+         "ID": "15503",
+         "Name": "Maximum Length Chain of Pairs",
+         "Link": "https://practice.geeksforgeeks.org/problems/max-length-chain/1"
+      },
+      {
+         "ID": "15504",
+         "Name": "Maximum size square sub-matrix with all 1s",
+         "Link": "https://practice.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix/0"
+      },
+      {
+         "ID": "15505",
+         "Name": "Maximum sum of pairs with specific difference",
+         "Link": "https://practice.geeksforgeeks.org/problems/pairs-with-specific-difference/0"
+      },
+      {
+         "ID": "15506",
+         "Name": "Min Cost PathProblem",
+         "Link": "https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1"
+      },
+      {
+         "ID": "15507",
+         "Name": "Maximum difference of zeros and ones in binary string",
+         "Link": "https://practice.geeksforgeeks.org/problems/maximum-difference-of-zeros-and-ones-in-binary-string4111/1"
+      },
+      {
+         "ID": "15508",
+         "Name": "Minimum number of jumps to reach end",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0"
+      },
+      {
+         "ID": "15509",
+         "Name": "Minimum cost to fill given weight in a bag",
+         "Link": "https://practice.geeksforgeeks.org/problems/minimum-cost-to-fill-given-weight-in-a-bag1956/1"
+      },
+      {
+         "ID": "15510",
+         "Name": "Minimum removals from array to make max \u2013min <= K",
+         "Link": "https://www.geeksforgeeks.org/minimum-removals-array-make-max-min-k/"
+      },
+      {
+         "ID": "15511",
+         "Name": "Longest Common Substring",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-common-substring/0"
+      },
+      {
+         "ID": "15512",
+         "Name": "Count number of ways to reacha given score in a game",
+         "Link": "https://practice.geeksforgeeks.org/problems/reach-a-given-score/0"
+      },
+      {
+         "ID": "15513",
+         "Name": "Count Balanced Binary Trees of Height h",
+         "Link": "https://practice.geeksforgeeks.org/problems/bbt-counter/0"
+      },
+      {
+         "ID": "15514",
+         "Name": "LargestSum Contiguous Subarray [V>V>V>V IMP ]",
+         "Link": "https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0"
+      },
+      {
+         "ID": "15515",
+         "Name": "Smallest sum contiguous subarray",
+         "Link": "https://www.geeksforgeeks.org/smallest-sum-contiguous-subarray/"
+      },
+      {
+         "ID": "15516",
+         "Name": "Unbounded Knapsack (Repetition of items allowed)",
+         "Link": "https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1"
+      },
+      {
+         "ID": "15517",
+         "Name": "Word Break Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/word-break/0"
+      },
+      {
+         "ID": "15518",
+         "Name": "Largest Independent Set Problem",
+         "Link": "https://www.geeksforgeeks.org/largest-independent-set-problem-dp-26/"
+      },
+      {
+         "ID": "15519",
+         "Name": "Partition problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1"
+      },
+      {
+         "ID": "15520",
+         "Name": "Longest Palindromic Subsequence",
+         "Link": "https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/"
+      },
+      {
+         "ID": "15521",
+         "Name": "Count All Palindromic Subsequence in a given String",
+         "Link": "https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1"
+      },
+      {
+         "ID": "15522",
+         "Name": "Longest Palindromic Substring",
+         "Link": "https://leetcode.com/problems/longest-palindromic-substring/"
+      },
+      {
+         "ID": "15523",
+         "Name": "Longest alternating subsequence",
+         "Link": "https://practice.geeksforgeeks.org/problems/longest-alternating-subsequence/0"
+      },
+      {
+         "ID": "15524",
+         "Name": "Weighted Job Scheduling",
+         "Link": "https://www.geeksforgeeks.org/weighted-job-scheduling/"
+      },
+      {
+         "ID": "15525",
+         "Name": "Coin game winner where every player has three choices",
+         "Link": "https://www.geeksforgeeks.org/coin-game-winner-every-player-three-choices/"
+      },
+      {
+         "ID": "15526",
+         "Name": "Count Derangements (Permutation such that no element appears in its original position) [ IMPORTANT ]",
+         "Link": "https://www.geeksforgeeks.org/count-derangements-permutation-such-that-no-element-appears-in-its-original-position/"
+      },
+      {
+         "ID": "15527",
+         "Name": "Maximum profit by buying and selling a share at most twice [ IMP ]",
+         "Link": "https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/"
+      },
+      {
+         "ID": "15528",
+         "Name": "Optimal Strategy for a Game",
+         "Link": "https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game/0"
+      },
+      {
+         "ID": "15529",
+         "Name": "Optimal Binary Search Tree",
+         "Link": "https://www.geeksforgeeks.org/optimal-binary-search-tree-dp-24/"
+      },
+      {
+         "ID": "15530",
+         "Name": "Palindrome PartitioningProblem",
+         "Link": "https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1"
+      },
+      {
+         "ID": "15531",
+         "Name": "Word Wrap Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/word-wrap/0"
+      },
+      {
+         "ID": "15532",
+         "Name": "Mobile Numeric Keypad Problem [ IMP ]",
+         "Link": "https://practice.geeksforgeeks.org/problems/mobile-numeric-keypad5456/1"
+      },
+      {
+         "ID": "15533",
+         "Name": "Boolean Parenthesization Problem",
+         "Link": "https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0"
+      },
+      {
+         "ID": "15534",
+         "Name": "Largest rectangular sub-matrix whose sum is 0",
+         "Link": "https://www.geeksforgeeks.org/largest-rectangular-sub-matrix-whose-sum-0/"
+      },
+      {
+         "ID": "15535",
+         "Name": "Largest area rectangular sub-matrix with equal number of 1\u2019s and 0\u2019s [ IMP ]",
+         "Link": "https://www.geeksforgeeks.org/largest-area-rectangular-sub-matrix-equal-number-1s-0s/"
+      },
+      {
+         "ID": "15536",
+         "Name": "Maximum sum rectangle in a 2D matrix",
+         "Link": "https://practice.geeksforgeeks.org/problems/maximum-sum-rectangle/0"
+      },
+      {
+         "ID": "15537",
+         "Name": "Maximum profit by buying and selling a share at most k times",
+         "Link": "https://practice.geeksforgeeks.org/problems/maximum-profit4657/1"
+      },
+      {
+         "ID": "15538",
+         "Name": "Find if a string is interleaved of two other strings",
+         "Link": "https://practice.geeksforgeeks.org/problems/interleaved-strings/1"
+      },
+      {
+         "ID": "15539",
+         "Name": "Maximum Length of Pair Chain",
+         "Link": "https://leetcode.com/problems/maximum-length-of-pair-chain/"
+      },
+      {
+         "ID": "15540",
+         "Name": "Count set bits in an integer",
+         "Link": "https://practice.geeksforgeeks.org/problems/set-bits0143/1"
+      },
+      {
+         "ID": "15541",
+         "Name": "Find the two non-repeating elements in an array of repeating elements",
+         "Link": "https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1"
+      },
+      {
+         "ID": "15542",
+         "Name": "Count number of bits to be flipped to convert A to B",
+         "Link": "https://practice.geeksforgeeks.org/problems/bit-difference/0"
+      },
+      {
+         "ID": "15543",
+         "Name": "Count total set bits in all numbers from 1 to n",
+         "Link": "https://practice.geeksforgeeks.org/problems/count-total-set-bits/0"
+      },
+      {
+         "ID": "15544",
+         "Name": "Program to find whether a no is power of two",
+         "Link": "https://practice.geeksforgeeks.org/problems/power-of-2/0"
+      },
+      {
+         "ID": "15545",
+         "Name": "Find position of the only set bit",
+         "Link": "https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1"
+      },
+      {
+         "ID": "15546",
+         "Name": "Copy set bits in a range",
+         "Link": "https://www.geeksforgeeks.org/copy-set-bits-in-a-range/"
+      },
+      {
+         "ID": "15547",
+         "Name": "Divide two integers without using multiplication, division and mod operator",
+         "Link": "https://www.geeksforgeeks.org/divide-two-integers-without-using-multiplication-division-mod-operator/"
+      },
+      {
+         "ID": "15548",
+         "Name": "Calculate square of a number without using *, / and pow()",
+         "Link": "https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/"
+      },
+      {
+         "ID": "15549",
+         "Name": "Power Set",
+         "Link": "https://practice.geeksforgeeks.org/problems/power-set4302/1"
+      }
+   ],
+   "Done [yes or no]": [
+      "Yes",
+      "Yes",
+      "No",
+      "No",
+      "No",
+      "No",
+      "Yes",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "Yes",
+      "Yes",
+      "No",
+      "Yes",
+      "No",
+      "No",
+      "Yes",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "Yes",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No"
+   ]
+}
