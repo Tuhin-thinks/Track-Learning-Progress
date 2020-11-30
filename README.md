@@ -41,5 +41,9 @@ _You basically don't have to open the excel sheet each time and edit and save th
 
 # PREVIEW
 <p align="center">
+<<<<<<< HEAD
 <img src="images/dsa_sheet.png" height="650">
+=======
+<img src="images/dsa_sheet.png" height="350">
+>>>>>>> a028f41147bd726d9471dfd32dba3c69b61fd2da
 </p> 
