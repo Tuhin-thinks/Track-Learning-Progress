@@ -1,6 +1,11 @@
 # Track-Learning-Progress
 Software to Monitor the progress of your study by practicing some interesting coding problems.
 
+### START EXPLORING WITH 
+    ```Python
+    python app_main.py  
+    ```
+
 ## Python Version and Modules Required
 `'3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)]'`
 Install the required modules from requirements.txt file by running: ``pip install -r requirements.txt``
@@ -36,5 +41,5 @@ _You basically don't have to open the excel sheet each time and edit and save th
 
 # PREVIEW
 <p align="center">
-<img src="images/dsa_sheet.png" width="150">
+<img src="images/dsa_sheet.png" height="650">
 </p> 
