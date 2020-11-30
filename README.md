@@ -32,4 +32,9 @@ _You basically don't have to open the excel sheet each time and edit and save th
 
 # News:
 
-- **Next Update**: You'll be able to add new problems through this application along with their links and monitor them too. 
+- **Next Update**: You'll be able to add new problems through this application along with their links and monitor them too.
+
+# PREVIEW
+<p align="center">
+<img src="images/dsa_sheet.png" width="150">
+</p> 
