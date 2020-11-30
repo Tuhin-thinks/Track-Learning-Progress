@@ -2,7 +2,7 @@
 Software to Monitor the progress of your study by practicing some interesting coding problems.
 
 ### START EXPLORING WITH 
-    ```Python
+    ```
     python app_main.py  
     ```
 
