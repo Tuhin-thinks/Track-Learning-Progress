@@ -43,3 +43,9 @@ _You basically don't have to open the excel sheet each time and edit and save th
 <p align="center">
 <img src="images/dsa_sheet.png" height="350">
 </p>
+    <hr>
+<h2>Added New window to enter new problems</h2>
+<html>
+<p align="center">
+<img src="images/add_probs_window.png" height="350">
+    </p>
