@@ -1,5 +1,6 @@
 # pycharm folder
 .idea
+__pycache__
 
 # initial problem set
 FINAL450.json
