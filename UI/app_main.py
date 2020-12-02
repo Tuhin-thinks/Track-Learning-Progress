@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Raw\app_main_window.ui'
+# Form implementation generated from reading ui file '.\Raw\app_main_window.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.1
 #
@@ -9,8 +9,9 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+import os
 
-
+BASE = os.path.dirname(__file__)
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -19,12 +20,31 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
         self.gridLayout.setObjectName("gridLayout")
+        self.pushButton_remove_prob = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_remove_prob.setMaximumSize(QtCore.QSize(50, 16777215))
+        self.pushButton_remove_prob.setStyleSheet("#pushButton_remove_prob{\n"
+"    background-color: rgba(241, 241, 241, 10);\n"
+"}\n"
+"#pushButton_remove_prob:pressed{\n"
+"    \n"
+"    background-color: rgba(255, 46, 10, 120);\n"
+"}")
+        self.pushButton_remove_prob.setText("")
+        icon = QtGui.QIcon()
+        img_path = os.path.realpath(os.path.join(BASE, "../images/del_probs.png"))
+        icon.addPixmap(QtGui.QPixmap(img_path), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_remove_prob.setIcon(icon)
+        self.pushButton_remove_prob.setIconSize(QtCore.QSize(20, 20))
+        self.pushButton_remove_prob.setObjectName("pushButton_remove_prob")
+        self.gridLayout.addWidget(self.pushButton_remove_prob, 0, 6, 1, 1)
         self.label_header = QtWidgets.QLabel(self.centralwidget)
         self.label_header.setObjectName("label_header")
         self.gridLayout.addWidget(self.label_header, 0, 0, 1, 1)
-        self.pushButton_save = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_save.setObjectName("pushButton_save")
-        self.gridLayout.addWidget(self.pushButton_save, 3, 2, 1, 1)
+        self.label_complete_def = QtWidgets.QLabel(self.centralwidget)
+        self.label_complete_def.setMinimumSize(QtCore.QSize(0, 45))
+        self.label_complete_def.setText("")
+        self.label_complete_def.setObjectName("label_complete_def")
+        self.gridLayout.addWidget(self.label_complete_def, 4, 0, 1, 3)
         self.tableWidget_problems = QtWidgets.QTableWidget(self.centralwidget)
         self.tableWidget_problems.setHorizontalScrollMode(QtWidgets.QAbstractItemView.ScrollPerPixel)
         self.tableWidget_problems.setObjectName("tableWidget_problems")
@@ -33,14 +53,28 @@ class Ui_MainWindow(object):
         self.tableWidget_problems.horizontalHeader().setDefaultSectionSize(150)
         self.tableWidget_problems.horizontalHeader().setMinimumSectionSize(50)
         self.tableWidget_problems.horizontalHeader().setStretchLastSection(True)
-        self.gridLayout.addWidget(self.tableWidget_problems, 1, 0, 1, 3)
+        self.gridLayout.addWidget(self.tableWidget_problems, 3, 0, 1, 7)
+        self.pushButton_add_prob = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_add_prob.setMaximumSize(QtCore.QSize(50, 16777215))
+        self.pushButton_add_prob.setStyleSheet("#pushButton_add_prob{\n"
+"    background-color: rgba(241, 241, 241, 10);\n"
+"}\n"
+"#pushButton_add_prob:pressed{\n"
+"    background-color: rgba(255, 114, 14, 100);\n"
+"}")
+        self.pushButton_add_prob.setText("")
+        icon1 = QtGui.QIcon()
+        img_path = os.path.realpath(os.path.join(BASE, "../images/add_probs.png"))
+        icon1.addPixmap(QtGui.QPixmap(img_path), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_add_prob.setIcon(icon1)
+        self.pushButton_add_prob.setIconSize(QtCore.QSize(20, 20))
+        self.pushButton_add_prob.setObjectName("pushButton_add_prob")
+        self.gridLayout.addWidget(self.pushButton_add_prob, 0, 5, 1, 1)
+        self.pushButton_save = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_save.setObjectName("pushButton_save")
+        self.gridLayout.addWidget(self.pushButton_save, 5, 5, 1, 2)
         spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
-        self.gridLayout.addItem(spacerItem, 3, 0, 1, 1)
-        self.label_complete_def = QtWidgets.QLabel(self.centralwidget)
-        self.label_complete_def.setMinimumSize(QtCore.QSize(0, 45))
-        self.label_complete_def.setText("")
-        self.label_complete_def.setObjectName("label_complete_def")
-        self.gridLayout.addWidget(self.label_complete_def, 2, 0, 1, 3)
+        self.gridLayout.addItem(spacerItem, 5, 3, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))

@@ -15,6 +15,38 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="6">
+     <widget class="QPushButton" name="pushButton_remove_prob">
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_remove_prob{
+	background-color: rgba(241, 241, 241, 10);
+}
+#pushButton_remove_prob:pressed{
+	
+	background-color: rgba(255, 46, 10, 120);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../images/del_probs.png</normaloff>../../images/del_probs.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
     <item row="0" column="0">
      <widget class="QLabel" name="label_header">
       <property name="text">
@@ -22,17 +54,20 @@
       </property>
      </widget>
     </item>
-    <item row="3" column="2">
-     <widget class="QPushButton" name="pushButton_save">
-      <property name="text">
-       <string>Save Changes</string>
+    <item row="4" column="0" colspan="3">
+     <widget class="QLabel" name="label_complete_def">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>45</height>
+       </size>
       </property>
-      <property name="shortcut">
-       <string>Ctrl+S</string>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </item>
-    <item row="1" column="0" colspan="3">
+    <item row="3" column="0" colspan="7">
      <widget class="QTableWidget" name="tableWidget_problems">
       <property name="horizontalScrollMode">
        <enum>QAbstractItemView::ScrollPerPixel</enum>
@@ -48,7 +83,48 @@
       </attribute>
      </widget>
     </item>
-    <item row="3" column="0">
+    <item row="0" column="5">
+     <widget class="QPushButton" name="pushButton_add_prob">
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_add_prob{
+	background-color: rgba(241, 241, 241, 10);
+}
+#pushButton_add_prob:pressed{
+	background-color: rgba(255, 114, 14, 100);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../images/add_probs.png</normaloff>../../images/add_probs.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5" colspan="2">
+     <widget class="QPushButton" name="pushButton_save">
+      <property name="text">
+       <string>Save Changes</string>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+S</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
      <spacer name="horizontalSpacer">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
@@ -60,19 +136,6 @@
        </size>
       </property>
      </spacer>
-    </item>
-    <item row="2" column="0" colspan="3">
-     <widget class="QLabel" name="label_complete_def">
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>45</height>
-       </size>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
     </item>
    </layout>
   </widget>

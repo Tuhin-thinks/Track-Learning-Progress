@@ -3,10 +3,10 @@ import json
 import sys
 from functools import partial
 
-from PyQt5.QtWidgets import QApplication, QMainWindow, QComboBox, QTableWidgetItem, QMessageBox, QFileDialog, QAbstractItemView, QTableWidget
-from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow, QComboBox, QTableWidgetItem, QMessageBox, QFileDialog, QAbstractItemView, QTableWidget
+from PyQt5.QtCore import Qt, pyqtSignal
 from typing import List
-from UI import app_main
+from UI import app_main, new_problems_dialog
 
 PREFERENCES_DIR = "./UI/preference/preference.config"
 if not os.path.exists(os.path.dirname(PREFERENCES_DIR)):
@@ -71,6 +71,7 @@ def remove_row_all_table(table_widget):
     """
     table_widget: QTableWidget
     selected_rows = table_widget.selectionModel().selectedRows()
+    count = 0
     if selected_rows:
         row_indices = []
         for row_index in selected_rows:
@@ -78,6 +79,8 @@ def remove_row_all_table(table_widget):
         row_indices.sort(key=lambda x: -1 * x)
         for row in row_indices:  # sorted in descending order
             table_widget.removeRow(row)
+            count += 1
+    return count
 
 
 def delete_all_rows(table_widget: QTableWidget):
@@ -89,6 +92,39 @@ def delete_all_rows(table_widget: QTableWidget):
     setSel(list(range(row_count)), table_widget)
     remove_row_all_table(table_widget)
     table_widget.setSelectionMode(QAbstractItemView.ExtendedSelection)
+
+
+class AddProblems(QDialog):
+    get_results = pyqtSignal(list)
+
+    def __init__(self, prob_id):
+        super(AddProblems, self).__init__()
+        self.ui = new_problems_dialog.Ui_Dialog()
+        self.ui.setupUi(self)
+        self.setWindowModality(Qt.ApplicationModal)
+
+        self.prob_id = prob_id
+
+        self.ui.lineEdit_probId.setText(str(self.prob_id))
+        self.ui.pushButton_save.clicked.connect(self.validate)
+        self.ui.pushButton_cancel.clicked.connect(self.close)
+
+    def validate(self):
+        problem_name = self.ui.lineEdit_name.text()
+        topic = self.ui.lineEdit_topic.text()
+        problem_link = self.ui.lineEdit_link.text()
+        is_done = self.ui.comboBox.currentText()
+        problem_id = self.ui.lineEdit_probId.text()
+
+        flag = True
+        for item in [problem_name, problem_link, topic]:
+            if not (item is not None and item != ''):
+                flag = False
+        if flag:
+            self.get_results.emit([problem_id, topic, problem_name, problem_link, is_done])
+            self.close()
+        else:
+            showMessage("Invalid value", "You left some values empty, please try to enter them again", 'error')
 
 
 class AppWindow(QMainWindow):
@@ -114,6 +150,8 @@ class AppWindow(QMainWindow):
         self.ui.actionShow_Pending_Problems.triggered.connect(partial(self.show_filtered, 'pending'))
         self.ui.actionShow_Completed_Problems.triggered.connect(partial(self.show_filtered, 'completed'))
         self.ui.actionLoad_Sheet.triggered.connect(self.load_or_close)
+        self.ui.pushButton_add_prob.clicked.connect(self.add_problem)
+        self.ui.pushButton_remove_prob.clicked.connect(self.remove_record)
 
         self.ui.label_complete_def.setOpenExternalLinks(True)
         self.ui.label_complete_def.setTextInteractionFlags(Qt.LinksAccessibleByMouse)
@@ -186,14 +224,20 @@ class AppWindow(QMainWindow):
             temp_row = [id, tpic, name, is_done]
             self.insert_problems_row(0 if is_done == 'No' else 1)
             self.insert_table_row(temp_row)
+            self.last_id = id
 
     def insert_table_row(self, row_data):
+        """
+        Adds data to an empty row in the table
+        :param row_data: data to be inserted in a row in the table
+        :return:
+        """
         row_count = self.ui.tableWidget_problems.rowCount()
         self.ui.tableWidget_problems.setItem(row_count - 1, 0, QTableWidgetItem(str(row_data[0])))
         self.ui.tableWidget_problems.setItem(row_count - 1, 1, QTableWidgetItem(str(row_data[1])))
         self.ui.tableWidget_problems.setItem(row_count - 1, 2, QTableWidgetItem(str(row_data[2])))
 
-        self.ui.tableWidget_problems.cellWidget(row_count - 1, 3).setCurrentIndex(0 if row_data[-1] == 'No' else 1)
+        self.ui.tableWidget_problems.cellWidget(row_count - 1, 3).setCurrentIndex(0 if row_data[3] == 'No' else 1)
 
     def show_cell_data(self, row_no, column):
         data_text = self.ui.tableWidget_problems.item(row_no, 2).text()
@@ -204,6 +248,11 @@ class AppWindow(QMainWindow):
                 data_text + ' <strong>[COMPLETED]</strong>' + f'<br>Link: <a href="{self.links[row_no]}">{self.links[row_no]}</a>')
 
     def insert_problems_row(self, current_index=0):
+        """
+        Creates an empty row in the table (with combobox)
+        :param current_index:
+        :return:
+        """
         row_count = self.ui.tableWidget_problems.rowCount()
         comboBox = QComboBox(self.ui.tableWidget_problems)
         comboBox.addItems(["No", "Yes"])
@@ -212,7 +261,7 @@ class AppWindow(QMainWindow):
         self.ui.tableWidget_problems.insertRow(row_count)
         self.ui.tableWidget_problems.setCellWidget(row_count, 3, comboBox)
 
-    def save_data(self, mode='save'):
+    def save_data(self, mode='save', no_message=False):
         row_count = self.ui.tableWidget_problems.rowCount()
         all_data = {}
         ids = []
@@ -232,7 +281,8 @@ class AppWindow(QMainWindow):
         if mode == 'save':
             with open(DEFAULT_FILE, 'w') as json_file:
                 json.dump(all_data, json_file, indent=3)
-            showMessage("File Saved", f"Data File saved at <em>{DEFAULT_FILE}</em>", 'info')
+            if not no_message:
+                showMessage("File Saved", f"Data File saved at <em>{DEFAULT_FILE}</em>", 'info')
         elif mode == 'save-as':
             file_name = openFileNameDialog(self, filter="json file (*.json)")
             if file_name:
@@ -240,6 +290,23 @@ class AppWindow(QMainWindow):
                     json.dump(all_data, json_file, indent=3)
                 showMessage("File Saved", f"Data File saved at <em>{file_name}</em>", 'info')
                 self.ui.statusbar.showMessage("File Saved!")
+
+    def add_problem(self):
+        self.add_prob_window = AddProblems(int(self.last_id) + 1)
+        self.add_prob_window.get_results.connect(self.add_to_json)
+        self.add_prob_window.show()
+
+    def add_to_json(self, problem_data):
+        problem_id, topic, problem_name, problems_link, is_done = problem_data[0], problem_data[1], problem_data[2], problem_data[3], problem_data[4]
+        self.insert_problems_row(0 if is_done == 'No' else 1)
+        self.insert_table_row([problem_id, topic, problem_name, is_done])
+        self.last_id = problem_id
+        self.save_data(no_message=True)  # updates record
+
+    def remove_record(self):
+        rows_deleted = remove_row_all_table(self.ui.tableWidget_problems)
+        self.save_data(no_message=True)  # update records
+        self.ui.statusbar.showMessage(f"{rows_deleted} rows removed, records have been updated",1000)  # show update for 1 sec
 
 
 if __name__ == '__main__':
