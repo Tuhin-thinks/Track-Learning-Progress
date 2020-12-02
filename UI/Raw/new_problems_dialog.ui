@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>748</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLineEdit{
+	border: 0px solid white;
+	border-radius: 5px;
+	padding: 3px;
+}
+QLineEdit[readOnly=&quot;true&quot;]{
+	background-color: rgb(208, 208, 208);
+	border: 0px solid white;
+	border-radius: 5px;
+	padding: 3px;
+}
+#Dialog{
+	background-color: qlineargradient(spread:reflect, x1:0, y1:0.535, x2:1, y2:0.494682, stop:0 rgba(255, 156, 35, 255), stop:0.551136 rgba(255, 170, 0, 255), stop:1 rgba(255, 85, 0, 255));
+}
+QLabel{
+background-color: rgba(198, 198, 198, 150);
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QPushButton" name="pushButton_save">
+       <property name="styleSheet">
+        <string notr="true">#pushButton_save{
+padding: 3px;
+margin: 5px 5px;
+border: 1px solid grey;
+background-color: rgb(105, 105, 158);
+border-radius: 5px
+}
+#pushButton_save:pressed{
+padding: 3px;
+margin: 5px 5px;
+border: 1px solid grey;
+	background-color: rgb(51, 51, 77);
+border-radius: 5px
+}</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_cancel">
+       <property name="styleSheet">
+        <string notr="true">#pushButton_cancel{
+padding: 3px;
+margin: 5px 5px;
+border: 1px solid grey;
+	background-color: rgb(255, 45, 30);
+border-radius: 5px
+}
+#pushButton_cancel:pressed{
+padding: 3px;
+margin: 5px 5px;
+border: 1px solid grey;
+	background-color: rgb(166, 9, 9);
+border-radius: 5px
+}</string>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_header">
+     <property name="styleSheet">
+      <string notr="true">#label_header{
+	background-color:	rgba(197, 197, 197, 150);
+	border: 1px solid grey;
+	border-radius: 5px 5px;
+	padding: 5px;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;../../images/point_down.jpg&quot; height=&quot;100&quot;/&gt;&lt;/p&gt;&lt;p&gt;Add New Problems Here!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Problem ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit_probId">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Problem Name:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_name"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Source Link:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEdit_link"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Is Done?</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>No</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yes</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit_topic"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Topic:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
