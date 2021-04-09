@@ -1,6 +1,8 @@
 # pycharm folder
-.idea
-__pycache__
+.idea/
+.vscode/
+__pycache__/
 
 # initial problem set
 FINAL450.json
+*.pyc
