@@ -1,11 +1,15 @@
-import os
 import json
+import os
 import sys
 from functools import partial
-
-from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow, QComboBox, QTableWidgetItem, QMessageBox, QFileDialog, QAbstractItemView, QTableWidget
-from PyQt5.QtCore import Qt, pyqtSignal
 from typing import List
+
+from PyQt5.QtCore import Qt, pyqtSignal
+from PyQt5.QtGui import QColor
+from PyQt5.QtWidgets import (QAbstractItemView, QApplication, QComboBox,
+                             QDialog, QFileDialog, QMainWindow, QMessageBox,
+                             QTableWidget, QTableWidgetItem)
+
 from UI import app_main, new_problems_dialog
 
 PREFERENCES_DIR = "./UI/preference/preference.config"
@@ -82,6 +86,12 @@ def remove_row_all_table(table_widget):
             count += 1
     return count
 
+def setColortoRow(table, rowIndex, color:str):
+    for j in range(table.columnCount()):
+        try:
+            table.item(rowIndex, j).setBackground(QColor(color))
+        except AttributeError:
+            pass
 
 def delete_all_rows(table_widget: QTableWidget):
     """
@@ -222,8 +232,13 @@ class AppWindow(QMainWindow):
         print(f"len problem_id: {len(prob_id)}, prob_name: {len(prob_name)}, topic: {len(topic)}, done:{len(done)}\n")
         for id, name, tpic, is_done in zip(prob_id, prob_name, topic, done):
             temp_row = [id, tpic, name, is_done]
-            self.insert_problems_row(0 if is_done == 'No' else 1)
+            isDone = 0 if is_done == 'No' else 1
+            self.insert_problems_row(isDone)
             self.insert_table_row(temp_row)
+            if isDone:
+                setColortoRow(self.ui.tableWidget_problems, self.ui.tableWidget_problems.rowCount()-1, 'green')
+            else:
+                setColortoRow(self.ui.tableWidget_problems, self.ui.tableWidget_problems.rowCount()-1, 'red')
             self.last_id = id
 
     def insert_table_row(self, row_data):
@@ -256,10 +271,20 @@ class AppWindow(QMainWindow):
         row_count = self.ui.tableWidget_problems.rowCount()
         comboBox = QComboBox(self.ui.tableWidget_problems)
         comboBox.addItems(["No", "Yes"])
+        comboBox.setStyleSheet('background-color: red;')
+        comboBox.currentIndexChanged.connect(partial(self.check_changed_index, comboBox))
         comboBox.setCurrentIndex(current_index)
 
         self.ui.tableWidget_problems.insertRow(row_count)
         self.ui.tableWidget_problems.setCellWidget(row_count, 3, comboBox)
+    
+    def check_changed_index(self, comboBox, index):
+        if index == 0: # no
+            comboBox.setStyleSheet('background-color: red;')
+        else:
+            comboBox.setStyleSheet('background-color: green;')
+            
+
 
     def save_data(self, mode='save', no_message=False):
         row_count = self.ui.tableWidget_problems.rowCount()
