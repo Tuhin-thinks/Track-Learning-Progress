@@ -1,7 +1,7 @@
 # pycharm folder
 .idea/
 .vscode/
-__pycache__/
+*__pycache__
 
 # initial problem set
 FINAL450.json
