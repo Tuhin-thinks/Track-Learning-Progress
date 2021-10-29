@@ -22,15 +22,15 @@ class Ui_MainWindow(object):
         self.pushButton_remove_prob = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_remove_prob.setMaximumSize(QtCore.QSize(50, 16777215))
         self.pushButton_remove_prob.setStyleSheet("#pushButton_remove_prob{\n"
-"    background-color: rgba(241, 241, 241, 10);\n"
-"}\n"
-"#pushButton_remove_prob:pressed{\n"
-"    \n"
-"    background-color: rgba(255, 46, 10, 120);\n"
-"}")
+                                                  "    background-color: rgba(241, 241, 241, 10);\n"
+                                                  "}\n"
+                                                  "#pushButton_remove_prob:pressed{\n"
+                                                  "    \n"
+                                                  "    background-color: rgba(255, 46, 10, 120);\n"
+                                                  "}")
         self.pushButton_remove_prob.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Raw/../../images/del_probs.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("Raw/icons/del_probs.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_remove_prob.setIcon(icon)
         self.pushButton_remove_prob.setIconSize(QtCore.QSize(20, 20))
         self.pushButton_remove_prob.setObjectName("pushButton_remove_prob")
@@ -55,14 +55,14 @@ class Ui_MainWindow(object):
         self.pushButton_add_prob = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_add_prob.setMaximumSize(QtCore.QSize(50, 16777215))
         self.pushButton_add_prob.setStyleSheet("#pushButton_add_prob{\n"
-"    background-color: rgba(241, 241, 241, 10);\n"
-"}\n"
-"#pushButton_add_prob:pressed{\n"
-"    background-color: rgba(255, 114, 14, 100);\n"
-"}")
+                                               "    background-color: rgba(241, 241, 241, 10);\n"
+                                               "}\n"
+                                               "#pushButton_add_prob:pressed{\n"
+                                               "    background-color: rgba(255, 114, 14, 100);\n"
+                                               "}")
         self.pushButton_add_prob.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("Raw/../../images/add_probs.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("Raw/icons/add_probs.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_add_prob.setIcon(icon1)
         self.pushButton_add_prob.setIconSize(QtCore.QSize(20, 20))
         self.pushButton_add_prob.setObjectName("pushButton_add_prob")
@@ -106,7 +106,10 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "DSA PROBLEM TRACKER"))
-        self.label_header.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:24pt; font-weight:600; text-decoration: underline;\">DSA CRACKER SHEET</span></p></body></html>"))
+        self.label_header.setText(_translate("MainWindow",
+                                             "<html><head/><body><p><span style=\" font-size:24pt; font-weight:600; "
+                                             "text-decoration: underline;\">DSA CRACKER "
+                                             "SHEET</span></p></body></html>"))
         self.pushButton_save.setText(_translate("MainWindow", "Save Changes"))
         self.pushButton_save.setShortcut(_translate("MainWindow", "Ctrl+S"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))

@@ -4,14 +4,16 @@ import sys
 from functools import partial
 from typing import List
 
-from PyQt5.QtCore import Qt, pyqtSignal
-from PyQt5.QtGui import QColor
+from PyQt5 import QtCore, QtGui
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QColor, QPixmap, QIcon
 from PyQt5.QtWidgets import (QAbstractItemView, QApplication, QComboBox,
                              QDialog, QFileDialog, QMainWindow, QMessageBox,
                              QTableWidget, QTableWidgetItem)
 
 from UI import app_main, new_problems_dialog
 
+BASE_DIR = os.path.dirname(__file__)
 PREFERENCES_DIR = "./UI/preference/preference.config"
 if not os.path.exists(os.path.dirname(PREFERENCES_DIR)):
     os.mkdir(os.path.dirname(PREFERENCES_DIR))
@@ -32,6 +34,13 @@ else:
 def update_preference(data):
     with open(PREFERENCES_DIR, "w") as preference_update:
         json.dump(data, preference_update, indent=3)
+
+
+def create_icon(icon_path):
+    icon = QIcon()
+    pixmap = QPixmap(icon_path)
+    icon.addPixmap(pixmap, QtGui.QIcon.Normal, QtGui.QIcon.Off)
+    return icon
 
 
 def showMessage(title, text, message_type):
@@ -110,7 +119,7 @@ def delete_all_rows(table_widget: QTableWidget):
 
 
 class AddProblems(QDialog):
-    get_results = pyqtSignal(list)
+    get_results = QtCore.pyqtSignal(list)
 
     def __init__(self, prob_id):
         super(AddProblems, self).__init__()
@@ -148,12 +157,23 @@ class AddProblems(QDialog):
             )
 
 
+def check_changed_index(comboBox, index):
+    if index == 0:  # no
+        comboBox.setStyleSheet("background-color: red;")
+    else:
+        comboBox.setStyleSheet("background-color: green;")
+
+
 class AppWindow(QMainWindow):
     def __init__(self):
         super(AppWindow, self).__init__()
         self.column_count = 4
         self.ui = app_main.Ui_MainWindow()
         self.ui.setupUi(self)
+
+        # update button icons
+        self.ui.pushButton_add_prob.setIcon(create_icon(os.path.join(BASE_DIR, "UI/Raw/icons/add_probs.png")))
+        self.ui.pushButton_remove_prob.setIcon(create_icon(os.path.join(BASE_DIR, "UI/Raw/icons/del_probs.png")))
 
         self.ui.tableWidget_problems.setColumnCount(4)
         self.ui.tableWidget_problems.setHorizontalHeaderLabels(
@@ -171,12 +191,11 @@ class AppWindow(QMainWindow):
         self.ui.tableWidget_problems.cellPressed.connect(self.show_cell_data)
         self.ui.pushButton_save.clicked.connect(partial(self.save_data, "save"))
         self.ui.actionSave_As.triggered.connect(partial(self.save_data, "save-as"))
-        self.ui.actionShow_Pending_Problems.triggered.connect(
-            partial(self.show_filtered, "pending")
-        )
-        self.ui.actionShow_Completed_Problems.triggered.connect(
-            partial(self.show_filtered, "completed")
-        )
+
+        self.ui.actionShow_Pending_Problems.triggered.connect(partial(self.show_filtered, "pending"))
+        self.ui.actionShow_Completed_Problems.triggered.connect(partial(self.show_filtered, "completed"))
+        self.ui.actionShow_All.triggered.connect(partial(self.show_filtered, "all"))
+
         self.ui.actionLoad_Sheet.triggered.connect(self.load_or_close)
         self.ui.pushButton_add_prob.clicked.connect(self.add_problem)
         self.ui.pushButton_remove_prob.clicked.connect(self.remove_record)
@@ -204,8 +223,9 @@ class AppWindow(QMainWindow):
         self.load_data(self.table_data)
 
     def show_filtered(self, filter_by):
+        row_count = self.ui.tableWidget_problems.rowCount()
+
         if filter_by == "pending":
-            row_count = self.ui.tableWidget_problems.rowCount()
             for row in range(row_count):
                 is_hidden = self.ui.tableWidget_problems.cellWidget(
                     row, 3
@@ -214,8 +234,12 @@ class AppWindow(QMainWindow):
                     self.ui.tableWidget_problems.showRow(row)
                 else:
                     self.ui.tableWidget_problems.hideRow(row)
-        else:
-            row_count = self.ui.tableWidget_problems.rowCount()
+
+        elif filter_by == "all":
+            for row in range(row_count):
+                self.ui.tableWidget_problems.showRow(row)
+
+        elif filter_by == "completed":
             for row in range(row_count):
                 is_hidden = self.ui.tableWidget_problems.cellWidget(
                     row, 3
@@ -233,7 +257,6 @@ class AppWindow(QMainWindow):
 
     def load_data(self, data):
         """
-        :param parent:
         :param data: json dictionary
         :return:
         """
@@ -302,7 +325,7 @@ class AppWindow(QMainWindow):
             0 if row_data[3] == "No" else 1
         )
 
-    def show_cell_data(self, row_no, column):
+    def show_cell_data(self, row_no, *args):
         data_text = self.ui.tableWidget_problems.item(row_no, 2).text()
         if self.ui.tableWidget_problems.cellWidget(row_no, 3).currentIndex() == 0:
             self.ui.label_complete_def.setText(
@@ -327,18 +350,12 @@ class AppWindow(QMainWindow):
         comboBox.addItems(["No", "Yes"])
         comboBox.setStyleSheet("background-color: red;")
         comboBox.currentIndexChanged.connect(
-            partial(self.check_changed_index, comboBox)
+            partial(check_changed_index, comboBox)
         )
         comboBox.setCurrentIndex(current_index)
 
         self.ui.tableWidget_problems.insertRow(row_count)
         self.ui.tableWidget_problems.setCellWidget(row_count, 3, comboBox)
-
-    def check_changed_index(self, comboBox, index):
-        if index == 0:  # no
-            comboBox.setStyleSheet("background-color: red;")
-        else:
-            comboBox.setStyleSheet("background-color: green;")
 
     def save_data(self, mode="save", no_message=False):
         row_count = self.ui.tableWidget_problems.rowCount()
@@ -348,12 +365,12 @@ class AppWindow(QMainWindow):
         topics = []
         is_dones = []
         for row in range(row_count):
-            id = self.ui.tableWidget_problems.item(row, 0).text()
-            ids.append(id)
+            id_ = self.ui.tableWidget_problems.item(row, 0).text()
+            ids.append(id_)
             topic = self.ui.tableWidget_problems.item(row, 1).text()
             topics.append(topic)
             name = self.ui.tableWidget_problems.item(row, 2).text()
-            problems.append({"ID": id, "Name": name, "Link": self.links[row]})
+            problems.append({"ID": id_, "Name": name, "Link": self.links[row]})
             is_done = self.ui.tableWidget_problems.cellWidget(row, 3).currentText()
             is_dones.append(is_done)
             all_data = {

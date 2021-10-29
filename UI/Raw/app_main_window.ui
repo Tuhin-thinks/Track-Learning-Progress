@@ -37,7 +37,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../images/del_probs.png</normaloff>../../images/del_probs.png</iconset>
+        <normaloff>icons/del_probs.png</normaloff>icons/del_probs.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -104,7 +104,7 @@
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../images/add_probs.png</normaloff>../../images/add_probs.png</iconset>
+        <normaloff>icons/add_probs.png</normaloff>icons/add_probs.png</iconset>
       </property>
       <property name="iconSize">
        <size>
