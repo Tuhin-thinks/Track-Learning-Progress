@@ -72,11 +72,11 @@
       <property name="horizontalScrollMode">
        <enum>QAbstractItemView::ScrollPerPixel</enum>
       </property>
-      <attribute name="horizontalHeaderDefaultSectionSize">
-       <number>150</number>
-      </attribute>
       <attribute name="horizontalHeaderMinimumSectionSize">
        <number>50</number>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>150</number>
       </attribute>
       <attribute name="horizontalHeaderStretchLastSection">
        <bool>true</bool>
@@ -145,7 +145,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -157,6 +157,7 @@
     <addaction name="separator"/>
     <addaction name="actionShow_Pending_Problems"/>
     <addaction name="actionShow_Completed_Problems"/>
+    <addaction name="actionShow_All"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
@@ -191,6 +192,14 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+2</string>
+   </property>
+  </action>
+  <action name="actionShow_All">
+   <property name="text">
+    <string>Show All</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+3</string>
    </property>
   </action>
  </widget>
